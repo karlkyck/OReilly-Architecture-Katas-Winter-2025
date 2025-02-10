@@ -64,7 +64,7 @@ integration of AI, ensuring that the certification process remains intuitive and
 - **Ensure Compliance and Quality**: Establish mechanisms to maintain the integrity and quality of certification 
 standards, ensuring that the integration of AI does not compromise the rigorous evaluation process that Certifiable, 
 Inc. is known for.
-    - [ADR-05 AI Model Validation and Testing](/ADR-05.md)
+    - [ADR-05 Analytics and AI Model Development](/ADR-05.md)
 
 ## Event Storming
 
