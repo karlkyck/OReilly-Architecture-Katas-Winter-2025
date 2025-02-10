@@ -53,18 +53,18 @@ incorporate AI capabilities, ensuring the architecture can support the anticipat
 - **Automate Grading and Review Processes**: Explore ways in which Generative AI can automate the grading and review of 
 software architecture submissions, reducing the burden on expert architects and accelerating response times for
 certification.
-    - [ADR-01 Aptitude Test Grader](/ADR-01.md)
-    - [ADR-02 Failover of Marking Exams](/ADR-02.md)
-    - [ADR-03 Batching](/ADR-03.md)
+    - [ADR-01 Aptitude Test Grader](/ADRs/ADR-01.md)
+    - [ADR-02 Failover of Marking Exams](/ADRs/ADR-02.md)
+    - [ADR-03 Batching](/ADRs/ADR-03.md)
 
 - **Enhance User Experience**: Identify improvements in user experience for both applicants and certifiers through the 
 integration of AI, ensuring that the certification process remains intuitive and efficient.
-    - [ADR-04 AI agent to monitor candidates for cheating](/ADR-04.md)
+    - [ADR-04 AI agent to monitor candidates for cheating](/ADRs/ADR-04.md)
 
 - **Ensure Compliance and Quality**: Establish mechanisms to maintain the integrity and quality of certification 
 standards, ensuring that the integration of AI does not compromise the rigorous evaluation process that Certifiable, 
 Inc. is known for.
-    - [ADR-05 Analytics and AI Model Development](/ADR-05.md)
+    - [ADR-05 Analytics and AI Model Development](/ADRs/ADR-05.md)
 
 ## Event Storming
 
