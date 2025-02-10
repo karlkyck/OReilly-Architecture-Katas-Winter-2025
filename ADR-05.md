@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 05: Analytics and AI Model Development
+## ADR 05: Analytics and AI Model Development 
 
 ### Status
 - Proposed
