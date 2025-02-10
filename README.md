@@ -68,7 +68,7 @@ Inc. is known for.
 
 ## Event Storming
 
-We used [Event Storming](./event-storming.md) to explore and map out various domains within our business
+We used [Event Storming](/Event%20Storming/event-storming.md) to explore and map out various domains within our business
 processes. The session focused on capturing and documenting the flow of events, actors, and interactions between
 systems. This document summarizes our outcomes and serves as a guide to understanding our approach.
 
