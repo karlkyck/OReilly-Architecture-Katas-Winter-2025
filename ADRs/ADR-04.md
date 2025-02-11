@@ -23,7 +23,7 @@ of the company as we grow.
 suspicious behavior or anomalies in real time. This option would involve collecting video and interaction data and using
 that to create a dataset. We would then need to label a dataset of normal and suspicious behaviors to train the AI model.
 Frameworks such as TensorFlow or PyTorch could be used to develop AI algorithms to develop our model which could then be
-trained using our labelled dataset. Alerts could be added to notify when suspicious behaviour is detected.
+trained using our labelled dataset. Alerts could be added to notify when suspicious behaviour is detected.  
 **Pros**:  
 Immediate feedback and alerts for certifiers.
 Enhanced detection of cheating through behavior analysis.  
