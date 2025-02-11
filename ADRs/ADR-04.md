@@ -1,0 +1,69 @@
+# Architecture Decision Record (ADR) Template
+
+## ADR 04: AI Agent to monitor candidates for cheating
+
+### Status
+- <span style="color:gray">DRAFT</span>
+
+### Context
+It is very important that the certification process for applicants can be trusted. There is a very real possibility that
+candidates could use search engines or even AI to cheat during the assessments. An AI-driven monitoring system could 
+provide real-time insights into candidate behaviour, flagging potential cheating without disrupting the user experience.
+
+### Decision
+After evaluating various options, the decision is to implement an AI agent that utilizes machine learning algorithms to 
+monitor candidates during assessments, analyze behavioral patterns, and identify anomalies that may indicate cheating. 
+The system will ensure a seamless user experience for applicants while providing certifiers with valuable insights and 
+alerts. This is not recommended for the MVP and is a future feature that will add value and help build the reputation
+of the company as we grow.
+
+### Alternatives Considered
+- **Option 1:** Real-Time AI Monitoring  
+**Description**: Implement an AI system that analyzes candidates' video feeds and interactions during assessments to detect 
+suspicious behavior or anomalies in real time. This option would involve collecting video and interaction data and using
+that to create a dataset. We would then need to label a dataset of normal and suspicious behaviors to train the AI model.
+Frameworks such as TensorFlow or PyTorch could be used to develop AI algorithms to develop our model which could then be
+trained using our labelled dataset. Alerts could be added to notify when suspicious behaviour is detected.
+**Pros**:  
+Immediate feedback and alerts for certifiers.
+Enhanced detection of cheating through behavior analysis.  
+**Cons**:  
+Requires significant processing power and resources.
+Time-consuming to gather and label a dataset to train the AI model.
+Potential concerns regarding privacy and data security.
+Candidates may feel anxious or scrutinized during assessments.
+  
+
+- **Option 2:** Post-Assessment Analysis  
+**Description:** Use AI to analyze data from completed assessments, reviewing patterns and inconsistencies in results after
+the fact.  
+**Pros:**  
+Less intrusive for applicants during the assessment.
+Lower resource demands during the examination.
+Potential to improve overall test design based on insights gained.  
+**Cons:**  
+Cheating may go undetected during the assessment, leading to compromised results.
+Delayed feedback for certifiers, which may affect their decision-making.
+Limited ability to intervene in real time.
+  
+
+- **Option 3:** Manual Approach  
+**Description:**  
+Use human experts to monitor candidates in real-time during assessments, ensuring compliance with 
+testing standards and observing for any potential cheating behavior.  
+**Pros:**    
+Direct observation allows for immediate intervention if suspicious behavior is detected.
+Enhances trust in the integrity of the certification process through human oversight.
+Provides a personal touch that may enhance applicant comfort and confidence during the assessment.  
+**Cons:**   
+Resource-intensive, requiring a larger pool of trained experts and increased operational costs.
+Potential for human error or bias in monitoring, which could affect the reliability of cheating detection.
+Limited scalability, especially for large-scale assessments, as expert availability may become a bottleneck.
+May create a stressful environment for candidates, impacting their performance.
+
+### References
+[AI Cheating Tips to Avoid and Detect](https://screenapp.io/blog/how-to-avoid-and-detect-ai-cheating-with-exam-assignments-and-essays#:~:text=Proctoring%20software%20can%20monitor%20a,background%2C%20like%20an%20AI%20program.)  
+[Can AI Be Used to Cheat on Multiple-Choice Exams?](https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2024/08/30/professor-finds-way-see-if-students-used-ai)
+
+### Date
+02/11/2025
