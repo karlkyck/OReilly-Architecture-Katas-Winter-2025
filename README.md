@@ -67,10 +67,11 @@ standards, ensuring that the integration of AI does not compromise the rigorous 
 Inc. is known for.
     - [ADR-05 Data Provisioning for Analytics and AI Model Development](/ADRs/ADR-05.md)
 
-- **Maintain our Reputation**: Identify areas of potential concern to our reputation as the company scales and introduces AI use.
+- **Maintain our Security and Reputation**: Identify areas of potential concern to our security posture andreputation as the company scales and introduces AI use.
     - [Security Assessment](/ADRs/ADR-06.md)
     - [Privacy Assessment](/ADRs/ADR-07.md)
     - [Environmental Impact](/ADRs/ADR-08.md)
+    - [Authorization and Authentication](/ADRs/ADR-12.md)
 
 - **Improve operational effeciency and profitability**: Scaling in a manner that allows us to remain profitable and effecient
     - [Operational Effeciency and Profitability](/ADRs/ADR-09.md)

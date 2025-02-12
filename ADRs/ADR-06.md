@@ -10,9 +10,11 @@ Our system currently stores intellectual property that sets Certifiable Inc. ahe
 We need to ensure that our future solution provides property security to our intellectual property and candidate data.
 
 ### Decision
-We need to perform a Threat Model against our system, using Micrsoft STRIDE.
-Data in Transit and at Rest is Encrpyted.
-TBC
+
+ -  Data in Transit Encrypted using oAuth
+ -  Data at Rest is Encrpyted using AES on sensitive data
+ -  Implement comprehensive Logging and Monitoring for tracability
+ -  Perform a Threat Model against our system design, using Micrsoft STRIDE approach
 
 
 ### Alternatives Considered
