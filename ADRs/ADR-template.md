@@ -3,6 +3,7 @@
 ## ADR [Number]: [Short Title of the Decision]
 
 ### Status
+- Draft
 - Proposed
 - Accepted
 - Superseded
