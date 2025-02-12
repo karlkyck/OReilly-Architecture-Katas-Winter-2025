@@ -10,7 +10,7 @@ It is very important that the certification process for applicants can be truste
 candidates could use search engines or even AI to cheat during the assessments. An AI-driven monitoring system could 
 provide real-time insights into candidate behaviour, flagging potential cheating without disrupting the user experience.
 
-Common Cheating Indicators coudl include:
+Common Cheating Indicators could include:
 
 Identical Answer Patterns: Looking for candidates with identical answers, especially in multiple-choice questions.
 Unusual Score Patterns: Identifying scores that are significantly higher or lower than expected, based on historical data.
