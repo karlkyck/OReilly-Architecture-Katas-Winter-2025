@@ -19,16 +19,13 @@ Answer Consistency: Examine the consistency of answers. If a candidate changes a
 Response Time Anomalies: Sudden spikes or reductions in response times, compared to peers, might indicate irregular behavior.
 
 ### Decision
-After evaluating various options, the decision is to implement an AI agent that utilizes machine learning algorithms to 
-monitor candidates during assessments, analyze behavioral patterns, and identify anomalies that may indicate cheating. 
-The system will ensure a seamless user experience for applicants while providing certifiers with valuable insights and 
-alerts. This is not recommended for the MVP and is a future feature that will add value and help build the reputation
-of the company as we grow.
+While implementing this could be very valuable, we are not recommending it for MVP, in the future we could implement an AI agent that utilizes machine learning algorithms to monitor candidates during assessments, analyse behavioral patterns, and identify anomalies that may indicate cheating. 
+The system will ensure a seamless user experience for applicants while providing certifiers with valuable insights and alerts. As this is not recommended for the MVP, it is a future feature that will add value and help build the reputation of the company as we grow.
 
 ### Alternatives Considered
 - **Option 1:** Real-Time AI Monitoring  
 
-**Description**: Implement an AI system that analyzes candidates' video feeds and interactions during assessments to detect 
+**Description**: Implement an AI system that analyses candidates' video feeds and interactions during assessments to detect 
 suspicious behavior or anomalies in real time. This option would involve collecting video and interaction data and using
 that to create a dataset. We would then need to label a dataset of normal and suspicious behaviors to train the AI model.
 Frameworks such as TensorFlow or PyTorch could be used to develop AI algorithms to develop our model which could then be
