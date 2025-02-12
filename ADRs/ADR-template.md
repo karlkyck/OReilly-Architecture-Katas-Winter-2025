@@ -3,12 +3,12 @@
 ## ADR [Number]: [Short Title of the Decision]
 
 ### Status
-- Draft
-- Proposed
-- Accepted
-- Superseded
-- Deprecated
-- Rejected
+- DRAFT
+- PROPOSED
+- ACCEPTED
+- SUPERCEDED
+- DEPRECATED
+- REJECTED
 
 ### Context
 [Provide background information and context for the decision. Explain the problem you are trying to solve or the opportunity you are looking to take advantage of.]
