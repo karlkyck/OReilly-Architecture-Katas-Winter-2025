@@ -71,6 +71,9 @@ Inc. is known for.
     - [Privacy Assessment](/ADRs/ADR-07.md)
     - [Environmental Impact](/ADRs/ADR-08.md)
 
+- **Improve operational effeciency and profitability**: Scaling in a manner that allows us to remain profitable and effecient
+    - [Operational Effeciency and Profitability](/ADRs/ADR-09.md)
+
 ## Event Storming
 
 We used [Event Storming](/Event%20Storming/event-storming.md) to explore and map out various domains within our business
