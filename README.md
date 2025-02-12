@@ -5,6 +5,7 @@ Our approach to the O'Reilly Winter Architectural Kata 2025
 - [Team](#team)
 - [Introduction](#introduction)
 - [Key Objectives](#key-objectives)
+- [Best Practices](#best-practices)
 - [Event Storming](#event-storming)
 - [Requirements](#requirements)
 - [Architecture Characteristics](#architecture-characteristics)
@@ -73,6 +74,51 @@ Inc. is known for.
 
 - **Improve operational effeciency and profitability**: Scaling in a manner that allows us to remain profitable and effecient
     - [Operational Effeciency and Profitability](/ADRs/ADR-09.md)
+
+## Best Practices
+
+We will adhere to best practices in AI Architecture Design
+
+- **Modular Design:**
+
+Structure the system into distinct, independent modules that can be developed, tested, and maintained separately.
+This will enhance flexibility, allows for easier updates, and improve collaboration. For example, separate modules for data preprocessing, model training, and model inference.
+
+ - **Scalability:**
+
+Design a system that can handle increased loads and expanded datasets without significant rewrites.
+This will facilitate the growth of the system in response to higher data volumes or more users.
+
+- **Data Management:**
+
+Implement a robust data pipeline for data ingestion, preprocessing, and storage. Ensure data quality and governance practices are in place.
+Streamlineing data access and ensuring that high-quality data is used for model training, improving model accuracy.
+
+- **Model Lifecycle Management:**
+
+Adopting practices for versioning, testing, and deploying AI models (e.g., CI/CD for models).
+This will ensure reproducibility, facilitating rollback to previous versions, and maintaining performance over time. Tools like MLflow or Kubeflow can be used for model lifecycle management.
+
+- **Monitoring and Evaluation:**
+
+Setting up monitoring systems to track model performance, data drift, and anomalies after deployment.
+This will help to maintain the performance of models over time and allows for timely interventions when models begin to degrade.
+
+- **Explainability and Transparency:**
+
+Designing systems to provide insights into how AI models make decisions (e.g., using LIME, SHAP).
+This will build trust among stakeholders and aids in compliance with regulations such as GDPR, which requires explainability in AI systems.
+
+- **Ethical Considerations:**
+
+Incorporating ethical guidelines into the design process to address biases, fairness, and accountability in AI.
+This will foster responsible AI development and use, reducing the risk of harm to individuals or groups.
+
+- **Feedback Loops:**
+
+Design systems to incorporate feedback from users or performance metrics to continuously improve models.
+This will facilitate ongoing refinement of models and alignment with user needs.
+
 
 ## Event Storming
 
