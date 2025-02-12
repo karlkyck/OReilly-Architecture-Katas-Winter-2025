@@ -10,6 +10,14 @@ It is very important that the certification process for applicants can be truste
 candidates could use search engines or even AI to cheat during the assessments. An AI-driven monitoring system could 
 provide real-time insights into candidate behaviour, flagging potential cheating without disrupting the user experience.
 
+Common Cheating Indicators coudl include:
+
+Identical Answer Patterns: Looking for candidates with identical answers, especially in multiple-choice questions.
+Unusual Score Patterns: Identifying scores that are significantly higher or lower than expected, based on historical data.
+Time Spent on Questions: Analysing how much time students spent on each question. Extremely fast completions may indicate cheating, especially if paired with high scores.
+Answer Consistency: Examine the consistency of answers. If a candidate changes answers frequently or has inconsistent scoring across similar questions, it may be suspicious.
+Response Time Anomalies: Sudden spikes or reductions in response times, compared to peers, might indicate irregular behavior.
+
 ### Decision
 After evaluating various options, the decision is to implement an AI agent that utilizes machine learning algorithms to 
 monitor candidates during assessments, analyze behavioral patterns, and identify anomalies that may indicate cheating. 
@@ -36,7 +44,12 @@ Candidates may feel anxious or scrutinized during assessments.
 
 - **Option 2:** Post-Assessment Analysis  
 **Description:** Use AI to analyze data from completed assessments, reviewing patterns and inconsistencies in results after
-the fact.  
+the fact. This option would involve collecting data from completed assessments, including:
+  * Individual test scores
+  * Answer choices for multiple-choice questions
+  * Time taken per question
+  * Previous assessment performance (if applicable)
+The data would then need organised in a structured format for analysis, then cleaned and transformed before statistical analysis could be performed. We could also use anomaly detection and classification models to identify unusual patterns. Results would need validated and verfied before notification of results.
 **Pros:**  
 Less intrusive for applicants during the assessment.
 Lower resource demands during the examination.
