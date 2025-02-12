@@ -19,6 +19,7 @@ The decision is to implement an AI-based grading system using a small Large Lang
 #### **1. Using a small LLM supported by RAG pattern**
 
 *Description*:
+
 A smaller LLM gives opportunity to provide a lower cost entry into AI generated grading, while we can increase the accuracy by leveraging our historical answer dataset via a RAG pattern.
 
 *Pros*:
@@ -35,6 +36,7 @@ A smaller LLM gives opportunity to provide a lower cost entry into AI generated 
 #### **2. Training a Custom ML Model on Historical Dataset**
 
 *Description*:
+
 With a large historical dataset available, we could train a custom ML model to identify correct answers and reject incorrect ones. However, new questions would not have this historical context and would present additional training challenges.
 
 *Pros*:
@@ -50,6 +52,7 @@ With a large historical dataset available, we could train a custom ML model to i
 #### **3. Using a Large LLM for Grading**
 
 *Description*:
+
 A large general purpose LLM could be leveraged to bring the full power of a GenAI model to understanding and grading the candidates responses to questions. This offers the simplest entry-point to AI generated grading.
 
 *Pros*:
@@ -64,6 +67,7 @@ A large general purpose LLM could be leveraged to bring the full power of a GenA
 #### **4. Using an Ensemble Approach with Specialized Models**
 
 *Description*:
+
 Multiple GenAI personas can be developed to each adopt a specific role when it comes to grading a candidates answer, each advocating for it's own criteria of a correct answer. The models would interact to produce an aggregated grade that is fully reflective of all aspects of the grading criteria.
 
 *Pros*:
