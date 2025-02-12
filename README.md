@@ -66,6 +66,13 @@ standards, ensuring that the integration of AI does not compromise the rigorous 
 Inc. is known for.
     - [ADR-05 Data Provisioning for Analytics and AI Model Development](/ADRs/ADR-05.md)
 
+- **Ensure Security and Privacy**: Assess the security vulnerabilities and data privacy consideration for the business, employees and candidates
+    - [Security Assessment](/ADRs/ADR-06.md)
+    - [Privacy Assessment](/ADRs/ADR-07.md)
+
+- **Environmental Impact**: Assess our solution for environmental impact, especially with the compute reources required for GenAI
+    - [Environmental Impact](/ADRs/ADR-08.md)
+
 ## Event Storming
 
 We used [Event Storming](/Event%20Storming/event-storming.md) to explore and map out various domains within our business
