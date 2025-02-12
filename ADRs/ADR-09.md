@@ -36,11 +36,13 @@ Total Grading Time Required: 22,000
 Current Capacity: 12,000 hours (**not sufficient to meet 10x growth**)
 Deficit: 10,000
 Number of Additional Experts Needed for 10x Growth
+
 Additional Experts Needed: 250
 Total Experts Required: 550
 
-Financial Implications
+**Financial Implications**
 Weekly Income with 2,000 Candidates: $1,600,000
+
 Net Profit from Certification: 1,100,000
 
 
@@ -57,6 +59,7 @@ Net Profit from Certification: 1,100,000
 | 1,800             | 195                       |
 | 2,000             | 250                       |
 
+![Additional Experts Needed](./Kata-Additional-Expert-Need.png)
 
 **SLA Improvement**
 In terms of effeciency we also have an opportunity to reduce the lead time for assessment and feedback to be completed for the candidate. This will enhance satisfaction and help with competition.
