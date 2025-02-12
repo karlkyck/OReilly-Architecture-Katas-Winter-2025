@@ -70,7 +70,6 @@ Inc. is known for.
     - [Security Assessment](/ADRs/ADR-06.md)
     - [Privacy Assessment](/ADRs/ADR-07.md)
     - [Environmental Impact](/ADRs/ADR-08.md)
-    - [Test Quailty and Assessment Accuracy](/ADRs/ADR-09.md)
 
 ## Event Storming
 
