@@ -43,11 +43,19 @@ Financial Implications
 Weekly Income with 2,000 Candidates: $1,600,000
 Net Profit from Certification: 1,100,000
 
-| Growth Scenario | Weekly Candidates | Total Grading Time Required (hours) | Current Capacity (hours) | Additional Experts Needed | Net Profit (with additional experts) |
-|-----------------|-------------------|-------------------------------------|---------------------------|---------------------------|--------------------------------------|
-| Current (1x)    | 200               | 2,200                               | 12,000                    | 0                         | $1,000,000                          |
-| 5x              | 1,000             | 11,000                              | 12,000                    | 0                         | $1,000,000                          |
-| 10x             | 2,000             | 22,000                              | 12,000                    | 250                       | $1,100,000                          |
+
+| Weekly Candidates | Additional Experts Needed (Above our current 300) |
+|-------------------|---------------------------|
+| 200               | 0                         |
+| 400               | 0                         |
+| 600               | 0                         |
+| 800               | 0                         |
+| 1,000             | 0                         |
+| 1,200             | 30                        |
+| 1,400             | 85                        |
+| 1,600             | 140                       |
+| 1,800             | 195                       |
+| 2,000             | 250                       |
 
 
 **SLA Improvement**
