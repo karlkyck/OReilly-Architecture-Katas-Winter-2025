@@ -55,7 +55,7 @@ software architecture submissions, reducing the burden on expert architects and 
 certification.
     - [ADR-01 Aptitude Test Grader](/ADRs/ADR-01.md)
     - [ADR-02 Failover of Marking Exams](/ADRs/ADR-02.md)
-    - [ADR-03 Batching](/ADRs/ADR-03.md)
+    - [ADR-03 Batching of grading process](/ADRs/ADR-03.md)
 
 - **Enhance User Experience**: Identify improvements in user experience for both applicants and certifiers through the 
 integration of AI, ensuring that the certification process remains intuitive and efficient.
