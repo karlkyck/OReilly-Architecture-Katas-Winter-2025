@@ -60,7 +60,7 @@ Net Profit from Certification: 1,100,000
 | 2,000             | 250                       |
 
 
-![Experts Needed](./Kata-Additional-Expert-Need.png)
+![Experts Needed](../Kata-Additional-Expert-Need.png)
 
 
 **SLA Improvement**
