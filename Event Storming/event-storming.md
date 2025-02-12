@@ -16,3 +16,5 @@ This document summarizes our outcomes and serves as a guide to understanding our
 
 We conducted the Event Storming session by placing sticky notes on a wall to map out the workflow in a physical format.
 ![Event Storming sticky note](./ai-kata-event-storming-wall.jpg)
+
+The output was transcribed into digital form as follows: ![Event Storming digital transcription](./ai-kata-event-storming-lucid.png)
