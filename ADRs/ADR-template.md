@@ -15,9 +15,6 @@
 ### Decision
 [Clearly describe the decision that has been made. Explain the chosen solution and how it addresses the context.]
 
-### Consequences
-[List the positive and negative consequences of this decision. Include any potential impacts on the architecture, team, or project.]
-
 ### Alternatives Considered
 [Document any alternative options that were considered and explain why they were not chosen. This helps to provide insight into the decision-making process.]
 
