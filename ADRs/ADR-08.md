@@ -7,7 +7,7 @@
 
 ### Context
 AI being introduced to the solution increases the need to focus on our Environmental Impact.
-It’s essential to consider the environmental implications of data storage processing and model training. 
+It is essential to consider the environmental implications of data storage processing and model training. 
 By implementing strategies to minimize energy consumption and carbon emissions, leveraging efficient algorithms, and adopting sustainable practices, we can significantly reduce our environmental footprint.
 
 ### Decision
