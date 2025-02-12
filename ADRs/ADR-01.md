@@ -74,6 +74,7 @@ Multiple GenAI personas can be developed to each adopt a specific role when it c
 - Specialized Insights: Different models can focus on distinct aspects of the grading, such as content accuracy, language use, and logical coherence, potentially providing a more nuanced evaluation.
 - Collaborative Grading: By aggregating impressions from multiple models, the system can arrive at a consensus grade, potentially improving grading reliability and fairness.
 - Adaptability: Models can be independently updated or replaced as grading criteria evolve or new requirements emerge.
+- Embedded Specialized Feedback: One persona can be developed to specifically focus on providing high quality feedback for the candidate as a result of the models' interaction.
 
 *Cons*:
 - Complex Coordination: Requires sophisticated algorithms to integrate and reconcile diverse model outputs into a single grade.
