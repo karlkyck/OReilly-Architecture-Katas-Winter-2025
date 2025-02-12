@@ -82,7 +82,7 @@ Multiple GenAI personas can be developed to each adopt a specific role when it c
 - Integration Complexity: More complex architecture needed to manage and coordinate the outputs of various models effectively.
 
 ### References
-[Include any relevant references, such as documentation, discussions, or related ADRs, that helped inform the decision.]
+- [ADR-10: Feedback from AI generated grading](./ADR-10)
 
 ### Date
 [Date of the decision]
