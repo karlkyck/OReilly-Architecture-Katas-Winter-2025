@@ -59,7 +59,9 @@ Net Profit from Certification: 1,100,000
 | 1,800             | 195                       |
 | 2,000             | 250                       |
 
-![Additional Experts Needed](./Kata-Additional-Expert-Need.png)
+
+![Experts Needed](./Kata-Additional-Expert-Need.png)
+
 
 **SLA Improvement**
 In terms of effeciency we also have an opportunity to reduce the lead time for assessment and feedback to be completed for the candidate. This will enhance satisfaction and help with competition.
