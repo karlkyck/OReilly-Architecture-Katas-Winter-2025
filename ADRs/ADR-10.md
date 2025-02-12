@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR [Number]: Feedback from AI generated grading
+## ADR-10: Feedback from AI generated grading
 
 ### Status
 - ACCEPTED
