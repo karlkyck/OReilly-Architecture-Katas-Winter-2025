@@ -45,11 +45,11 @@ Continuing to rely solely on expert architects for question generation was consi
 scalable and does not efficiently meet the projected demand. The manual process can be time-consuming and may lead to a 
 static question pool.
 
-- **Option 1:** Static Question Bank:
+- **Option 2:** Static Question Bank:
 Using a static question bank that has not been updated was an alternative. This option risks producing outdated content 
 and may not adequately assess the evolving landscape of software architecture, reducing the effectiveness of the certification.
 
-- **Option 1:** Hybrid Approach with Limited AI Use:
+- **Option 3:** Hybrid Approach with Limited AI Use:
 A hybrid model where AI aids experts but does not generate full questions was also evaluated. While this could enhance 
 efficiency, it may not fully leverage the capabilities of Generative AI to provide diverse and comprehensive question 
 coverage.
