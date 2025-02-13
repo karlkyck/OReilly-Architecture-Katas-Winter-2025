@@ -18,6 +18,20 @@ To address low confidence scores in the AI-enhanced grading system, we will impl
 Set a minimum confidence threshold (initially proposed at 0.7) for automated grading decisions. Submissions scoring below
 this threshold will be flagged for human review by expert software architects.
 
+- Queue System:
+Introduce a message queue (e.g. AWS SQS) to hold submissions flagged for manual review. This component will ensure 
+that submissions are processed in a reliable and orderly manner, allowing the system to efficiently manage increased loads.
+
+- Manual Review Component:
+Develop a dedicated service that manages the manual review workflow. This component will:
+  - Auto-assign flagged submissions to available expert reviewers based on their expertise and current workload.
+  - Track the status of each submission throughout the review process.
+  - Provide a user interface for reviewers to submit their evaluations and feedback.
+
+- Expert/Reviewer Notification System:
+Implement a notification mechanism that alerts expert reviewers when submissions are queued for their attention. This 
+will enable timely reviews and improve response times, thereby enhancing the overall efficiency of the grading process.
+
 - Human-in-the-Loop Review Process:  
 Develop a process where expert architects review submissions with low confidence scores. This dual-validation system 
 ensures fairness and accuracy, with architects able to utilize AI-generated feedback during their assessments.
