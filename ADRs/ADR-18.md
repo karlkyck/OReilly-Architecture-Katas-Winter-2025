@@ -22,7 +22,7 @@ After evaluating the options, we recommend using Option 1: Batch ETL as the redu
   Data is not available in real-time; the analytics team may have to wait for the next batch process to access new data.
 
 
-  - **Option 2:** Streaming ETL (Extract, Transform, Load)  
+- **Option 2:** Streaming ETL (Extract, Transform, Load)  
   **Description**: Implements a streaming or event-based approach to continuously load data from operational systems into the data lake house as it is generated.   
   **Pros**:     
   Provides near real-time access to data, allowing for immediate insights and quicker decision-making. Supports real-time analytics, which can be crucial for monitoring grading processes or candidate performance as they occur.  
