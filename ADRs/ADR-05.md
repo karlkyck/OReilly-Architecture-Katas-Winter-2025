@@ -3,7 +3,7 @@
 ## ADR 05: Data Provisioning for Analytics and AI Model Development
 
 ### Status
-- <span style="color:gray">DRAFT</span>
+- <span style="color:green">ACCEPTED</span>
 
 ### Context
 To facilitate analytical and reporting needs, as well as future AI model development, 
