@@ -3,7 +3,7 @@
 ## ADR 15: Using AI to generate Architecture questions for the exam
 
 ### Status
-- PROPOSED
+- DRAFT
 
 ### Context
 We are exploring opportunities to integrate Generative AI into the certification process. One critical aspect is the creation 
