@@ -22,7 +22,7 @@ Integrating the feedback generation into the AI model performing the grading pro
 *Pros*:
 - Contextual Relevance: Generates feedback at the same time as grading, ensuring feedback is based on the most current and accurate context.
 - Efficiency: Streamlines the feedback process by combining it with grading, reducing overall processing time.
-- Customization: Leverages historical data to provide personalized feedback, tailored to each candidate's submission.
+- Customization: Leverages contextual data to provide referenceable feedback, tailored to each candidate's submission.
 
 *Cons*:
 - Complexity: Integrating feedback generation with grading adds complexity to the system.
