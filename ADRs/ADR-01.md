@@ -8,11 +8,11 @@
 
 ### Context
 
-The current process of grading short answer submissions for examinations is manually handled by an expert architect, which is time-consuming and resource-intensive. Automating this process using AI can increase efficiency, reduce response time to the candidate and allow the company to reduce overall costs. The company has a historical dataset of graded answers which can be leveraged to train or inform AI solutions.
+The current process of grading short answer submissions for examinations is manually handled by an expert architect, which is time-consuming and resource-intensive. Automating this process using AI can increase efficiency, reduce response time to the candidate and allow the company to reduce overall costs.
 
 ### Decision
 
-The decision is to implement an AI-based grading system using a small Large Language Model (LLM) supported by a Retrieval-Augmented Generation (RAG) pattern. This solution will use the historical answer dataset to retrieve relevant information, enhancing the accuracy and reliability of the grading process.
+The decision is to implement an AI-based grading system using a small Large Language Model (LLM) supported by a Retrieval-Augmented Generation (RAG) pattern. This solution will leverage tailored reference materials curated by the Expert Architects, enhancing the accuracy and reliability of the grading process.
 
 ### Alternatives Considered
 
@@ -20,14 +20,13 @@ The decision is to implement an AI-based grading system using a small Large Lang
 
 *Description*:
 
-A smaller LLM gives opportunity to provide a lower cost entry into AI generated grading, while we can increase the accuracy by leveraging our historical answer dataset via a RAG pattern.
+A smaller LLM gives opportunity to provide a lower cost entry into AI generated grading, while we can increase the accuracy by leveraging curated reference materials via a RAG pattern.
 
 *Pros*:
 - Efficiency: Significantly reduces the time required to grade submissions
 - Resource Allocation: Frees up expert resources for more strategic activities
 - Scalability: Capable of handling large volumes of submissions simultaneously
 - Cost-effectiveness: Smaller LLMs are generally more economical compared to larger models
-- Availability of training data: We have a large historical dataset available to populate the RAG store
 
 *Cons*:
 - Complexity: Increases architectural complexity with the integration of RAG.
@@ -48,6 +47,7 @@ With a large historical dataset available, we could train a custom ML model to i
 - Resource Intensive: Requires significant data science expertise and resources for development and maintenance.
 - Time-Consuming: Model training and frequent retraining needed to accommodate new data.
 - Generalization: Risk of poor performance on new or varied questions without regular updates.
+- Degrading Data Quality: There is a risk that the quality of the dataset erodes over time and degrade the integrity of the tests.
 
 #### **3. Using a Large LLM for Grading**
 
