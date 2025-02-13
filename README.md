@@ -119,8 +119,8 @@ This will foster responsible AI development and use, reducing the risk of harm t
 
 Design systems to incorporate feedback from users or performance metrics to continuously improve models.
 This will facilitate ongoing refinement of models and alignment with user needs.
-
-
+ - [Feedback from AI generated grading]((/ADRs/ADR-10.md))
+   
 ## Event Storming
 
 We used [Event Storming](/Event%20Storming/event-storming.md) to explore and map out various domains within our business
