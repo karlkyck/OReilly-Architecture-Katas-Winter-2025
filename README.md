@@ -47,6 +47,7 @@ ensuring they can effectively handle the anticipated influx of certification app
 
 - **Identify AI Opportunities**: Assess the current SoftArchCert system to identify specific areas where Generative AI 
 can be applied to improve efficiency, scalability, and accuracy in handling certification requests.
+   - [ADR 15: Using AI to generate Architecture questions for the exam](/ADRs/ADR-15.md)
 
 - **Redesign System Architecture**: Develop a comprehensive plan for redesigning the SoftArchCert system architecture to
 incorporate AI capabilities, ensuring the architecture can support the anticipated growth in certification volume.
@@ -57,15 +58,20 @@ certification.
     - [ADR-01 Aptitude Test Grader](/ADRs/ADR-01.md)
     - [ADR-02 Failover of Marking Exams](/ADRs/ADR-02.md)
     - [ADR-03 Batching of grading process](/ADRs/ADR-03.md)
+    - [ADR 14: Handling Low Confidence Scores in AI-Enhanced Grading](/ADRs/ADR-14.md)
 
 - **Enhance User Experience**: Identify improvements in user experience for both applicants and certifiers through the 
 integration of AI, ensuring that the certification process remains intuitive and efficient.
     - [ADR-04 AI agent to monitor candidates for cheating](/ADRs/ADR-04.md)
+    - [ADR-10 Feedback from AI generated grading]((/ADRs/ADR-10.md))
+    - [ADR 16: Utilizing LLM Caching in the System](/ADRs/ADR-16.md)
 
 - **Ensure Compliance and Quality**: Establish mechanisms to maintain the integrity and quality of certification 
 standards, ensuring that the integration of AI does not compromise the rigorous evaluation process that Certifiable, 
 Inc. is known for.
     - [ADR-05 Data Provisioning for Analytics and AI Model Development](/ADRs/ADR-05.md)
+    - [ADR-11: Hosting strategy](/ADRs/ADR-11.md)
+    - [ADR-13: Grader Output Validation](/ADRs/ADR-13.md)
 
 - **Maintain our Security and Reputation**: Identify areas of potential concern to our security posture andreputation as the company scales and introduces AI use.
     - [Security Assessment](/ADRs/ADR-06.md)
@@ -119,7 +125,6 @@ This will foster responsible AI development and use, reducing the risk of harm t
 
 Design systems to incorporate feedback from users or performance metrics to continuously improve models.
 This will facilitate ongoing refinement of models and alignment with user needs.
- - [ADR-10 Feedback from AI generated grading]((/ADRs/ADR-10.md))
    
 ## Event Storming
 
