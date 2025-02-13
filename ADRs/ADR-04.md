@@ -3,7 +3,7 @@
 ## ADR 04: AI Agent to monitor candidates for cheating
 
 ### Status
-- <span style="color:gray">DRAFT</span>
+- <span style="color:gray">REJECTED</span>
 
 ### Context
 It is very important that the certification process for applicants can be trusted. There is a very real possibility that
@@ -89,3 +89,6 @@ May create a stressful environment for candidates, impacting their performance.
 
 ### Date
 02/12/2025
+
+### Date to revisit
+Post MVP - 02/12/2026
