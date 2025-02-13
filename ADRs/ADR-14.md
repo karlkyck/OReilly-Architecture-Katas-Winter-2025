@@ -1,4 +1,4 @@
-# Architecture Decision Record (ADR) Template
+# Architecture Decision Record (ADR)
 
 ## ADR 14: Handling Low Confidence Scores in AI-Enhanced Grading
 
