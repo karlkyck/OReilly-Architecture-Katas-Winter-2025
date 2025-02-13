@@ -3,8 +3,7 @@
 ## ADR 04: AI Agent to monitor candidates for cheating
 
 ### Status
-- <span style="color:gray">REJECTED</span>
-
+- REJECTED
 ### Context
 It is very important that the certification process for applicants can be trusted. There is a very real possibility that
 candidates could use search engines or even AI to cheat during the assessments. An AI-driven monitoring system could 
