@@ -1,9 +1,9 @@
-# Architecture Decision Record (ADR) Template
+# Architecture Decision Record (ADR)
 
 ## ADR 16: Utilizing LLM Caching in the System
 
 ### Status
-- PROPOSED
+- DRAFT
 
 ### Context
 The integration of Generative AI and Large Language Models (LLMs) presents an opportunity to enhance efficiency in exam 
