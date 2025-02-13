@@ -10,7 +10,7 @@ We must determine how to efficiently load data from our operational systems into
 The goal is to enable efficient analytics and AI model development, ensuring timely and accurate insights.
 
 ### Decision
-After evaluating the options, we recommend using Option 1: Batch ETL as the reduced cost and complexity in its architecture has a higher ranking than instant access to analytical data. 
+After evaluating the options, we recommend using Option 1: Batch ETL, as not having instant access to analytical data is an acceptable trade-off to achieve the reduced operational costs that a batch architecture provides.
 
 ### Alternatives Considered
 - **Option 1:** Batch ETL (Extract, Transform, Load)  
