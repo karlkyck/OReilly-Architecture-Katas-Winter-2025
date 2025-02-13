@@ -39,6 +39,8 @@ Create a mechanism to collect feedback on the effectiveness of AI-generated ques
 This feedback will inform further iterations and improvements of the AI model, ensuring that it evolves based on real-world 
 performance.
 
+```
+```
 +---------------------+
 |  User Interface     |
 |  (Candidate Portal) |
@@ -105,6 +107,8 @@ performance.
 |  - Performance      |
 |  - Compliance Logs   |
 +---------------------+
+```
+```
 
 ### Alternatives Considered
 - **Option 1:** Manual Question Creation:
