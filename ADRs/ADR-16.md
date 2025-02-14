@@ -3,7 +3,7 @@
 ## ADR 16: Utilizing LLM Caching in the System
 
 ### Status
-- DRAFT
+- REJECTED
 
 ### Context
 The integration of Generative AI and Large Language Models (LLMs) presents an opportunity to enhance efficiency in exam 
@@ -12,8 +12,11 @@ and resource consumption. To address these challenges, leveraging LLM caching ca
 and enhance user experience, especially in light of the anticipated demand increase.
 
 ### Decision
-To optimize the performance of the SoftArchCert system, we will implement LLM caching with the following key strategies:
+We have determined that caching LLM results is not applicable for our use case. Specifically, the variability in 
+candidate answers makes it infeasible to cache results effectively. The integration of context and the unique nature of 
+each candidate's response means that any cached results would likely be invalid or misleading.
 
+LLM caching strategies evaluated for reference:
 - Caching AI-Generated Questions:
 Store and reuse LLM-generated architecture exam questions to eliminate redundant computations and improve response times.
 
@@ -58,4 +61,4 @@ requirements, making this approach less viable.
 
 
 ### Date
-02/13/2025
+02/14/2025
