@@ -19,10 +19,10 @@ Utilize advanced Generative AI models to create a wide variety of architecture-r
 leverage existing databases of architectural concepts, best practices, and industry standards to produce relevant and 
 challenging questions.
 
-- Training and Fine-Tuning:
-Fine-tune the chosen AI model on a curated dataset comprising previously used questions, curriculum standards, and expert 
-feedback. This will help ensure that the AI-generated questions meet the quality standards expected from the certification 
-process.
+- Retrieval-Augmented Generation (RAG):
+Rather than fine-tuning a specific AI model, we will use the RAG capabilities similar to those employed in the Aptitude Test Grader.
+This will involve retrieving expert-collated reference material to inform the question generation process, ensuring that the
+generated content is rooted in high-quality, relevant resources.
 
 - Dynamic Question Generation:
 Enable the AI system to generate questions dynamically based on various parameters such as difficulty level, topic 
