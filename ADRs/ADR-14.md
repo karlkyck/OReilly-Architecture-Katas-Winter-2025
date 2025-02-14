@@ -36,6 +36,12 @@ will enable timely reviews and improve response times, thereby enhancing the ove
 Develop a process where expert architects review submissions with low confidence scores. This dual-validation system 
 ensures fairness and accuracy, with architects able to utilize AI-generated feedback during their assessments.
 
+Retrieval-Augmented Generation (RAG) Capability:
+
+- Utilize the same RAG capabilities as the Aptitude Test Grader to retrieve expert-collated reference material. This
+reference material will be included in prompts for generating questions and providing context during manual reviews,
+enhancing the quality and relevance of evaluations. see [ADR-01 Aptitude Test Grader](/ADRs/ADR-01.md)
+
 - Confidence Score Feedback Loop:
 Establish a mechanism for collecting feedback from expert architects on low-confidence submissions. Inaccurate assessments
 identified during review will be used to improve the AI model through retraining.
