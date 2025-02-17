@@ -54,6 +54,12 @@ A rule-based system would be used, incorporating predefined criteria and guideli
 - Predictability: Offers predictable outcomes based on predefined rules and logic.
 - Lower Development Costs: Initial setup might be simpler than training and deploying multiple LLMs.
 
+### References
+- 
+
+### Date
+[Date of the decision]
+
 *Cons*:
 - Inflexibility: Lacks adaptability and may not effectively handle complex or creative submissions.
 - Maintenance: Requires continuous updates to keep rules current with evolving standards and criteria.
