@@ -189,7 +189,7 @@ Address potential ethical concerns about AI use in grading, ensuring that the re
 ## Architecture Characteristics
 We chose the following as our top 3 architectural characteristics:
 
-![Team](/Architecture%20Characteristics/architecture-characteristics.jpg)
+![Team](/Architecture%20Characteristics/architecture-characteristics.png)
 
 - cost
 - scalability
