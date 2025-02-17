@@ -15,10 +15,14 @@ diverse and updated question pool that reflects current industry standards.
 To implement an AI-based approach for generating architecture exam questions, we will proceed with the following plan:
 
 - Integration of Generative AI Models:
-Utilize advanced Generative AI models to create a wide variety of architecture-related questions. This approach will 
-leverage existing databases of architectural concepts, best practices, and industry standards to produce relevant and 
-challenging questions.
+Utilize advanced Generative AI models, such as those available through Amazon Bedrock, to create a wide variety of 
+architecture-related questions. This approach will leverage existing databases of architectural concepts, best practices, 
+and industry standards to produce relevant and challenging questions.
 
+- AWS Step Functions for Orchestration:
+Implement AWS Step Functions to coordinate the workflow of generating questions. This will allow us to manage multiple 
+calls to Bedrock in parallel and sequentially, ensuring efficient data retrieval and question generation processes.
+  
 - Retrieval-Augmented Generation (RAG):
 Rather than fine-tuning a specific AI model, we will use the RAG capabilities similar to those employed in the Aptitude Test Grader.
 This will involve retrieving expert-collated reference material to inform the question generation process, ensuring that the
