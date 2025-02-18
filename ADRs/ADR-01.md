@@ -1,9 +1,9 @@
 # Architecture Decision Record (ADR)
 
-## ADR 15: Using AI to generate Architecture questions for the exam
+## ADR 01: Using AI to generate Architecture questions for the exam
 
 ### Status
-- DRAFT
+- IN PROGRESS
 
 ### Context
 We are exploring opportunities to integrate Generative AI into the certification process. One critical aspect is the creation 
