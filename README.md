@@ -75,7 +75,7 @@ Inc. is known for.
     - [ADR-12: Hosting strategy](/ADRs/ADR-12.md)
     - [ADR-13: Grader Output Validation](/ADRs/ADR-13.md)
 
-- **Maintain our Security and Reputation**: Identify areas of potential concern to our security posture andreputation as the company scales and introduces AI use.
+- **Maintain our Security and Reputation**: Identify areas of potential concern to our security posture and reputation as the company scales and introduces AI use.
     - [Security Assessment](/ADRs/ADR-14.md)
     - [Privacy Assessment](/ADRs/ADR-15.md)
     - [Environmental Impact](/ADRs/ADR-16.md)
