@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR) Template
 
-## ADR 17: Environmental Impact
+## ADR 16: Environmental Impact
 
 ### Status
 - DRAFT
