@@ -64,8 +64,8 @@ certification.
 
 - **Enhance User Experience**: Identify improvements in user experience for both applicants and certifiers through the 
 integration of AI, ensuring that the certification process remains intuitive and efficient.
-    - [ADR-08 AI agent to monitor candidates for cheating](/ADRs/ADR-08.md)
-    - [ADR-09 Feedback from AI generated grading]((/ADRs/ADR-09.md))
+    - [ADR-08: AI agent to monitor candidates for cheating](/ADRs/ADR-08.md)
+    - [ADR-09: Feedback from AI generated grading]((/ADRs/ADR-09.md))
     - [ADR 10: Utilizing LLM Caching in the System](/ADRs/ADR-10.md)
 
 - **Ensure Compliance and Quality**: Establish mechanisms to maintain the integrity and quality of certification 
