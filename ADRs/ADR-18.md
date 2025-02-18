@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR) Template
 
-## ADR 19: Operational Effeciency and Profitability
+## ADR 18: Operational Effeciency and Profitability
 
 ### Status
 - DRAFT
