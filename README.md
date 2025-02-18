@@ -193,7 +193,7 @@ We chose the following as our top 3 architectural characteristics:
 
 - cost
 - scalability
-- observability
+- accuracy
 
 ## Architecture
 
