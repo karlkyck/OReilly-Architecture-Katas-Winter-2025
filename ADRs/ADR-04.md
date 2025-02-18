@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 20: Approach for RAG implementation
+## ADR 04: Approach for RAG implementation
 
 ### Status
 
