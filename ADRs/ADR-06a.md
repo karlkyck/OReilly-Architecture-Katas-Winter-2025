@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 02: Data Pipeline ETL 
+## ADR 06: Data Pipeline ETL 
 
 ### Status
 - <span style="color:green">ACCEPTED</span>
