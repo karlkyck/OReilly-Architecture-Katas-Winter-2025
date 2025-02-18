@@ -81,7 +81,7 @@ Inc. is known for.
     - [Environmental Impact](/ADRs/ADR-16.md)
     - [Authorization and Authentication](/ADRs/ADR-17.md)
 
-- **Improve operational effeciency and profitability**: Scaling in a manner that allows us to remain profitable and effecient
+- **Improve operational effeciency and profitability**: Scaling in a manner that allows us to remain profitable, effecient and able to meet our SLAs
     - [Operational Effeciency and Profitability](/ADRs/ADR-18.md)
 
 ## Best Practices
