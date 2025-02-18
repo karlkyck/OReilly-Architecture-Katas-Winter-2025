@@ -1,9 +1,9 @@
-# Architecture Decision Record (ADR) Template
+# Architecture Decision Record (ADR)
 
 ## ADR 17: User Authentication and Authorization
 
 ### Status
-- PROPOSED
+- ACCEPTED
 
 ### Context
 
@@ -12,7 +12,7 @@ Certifiable, Inc. requires a secure and reliable user authentication and authori
 The system needs to accommodate different user roles, including:
 
 Candidates: Individuals seeking certification.
-Expert Software Architects: Employees responsible for grading exams and managing the certification process.
+Expert Software Architects: Employees responsible for grading exams and providing feedback.
 Administrators: Personnel who maintain user accounts and manage system settings.
 
 ### Decision
@@ -25,18 +25,22 @@ Role-Based Access Control (RBAC):
 Define user roles within the system with specific permissions associated with each role. Users will be assigned to roles based on their responsibilities:
 Candidate: Can access their certification status, take exams, and submit architecture solutions.
 Expert Software Architect: Can access grading dashboards, review submissions, and modify certification tests.
-Administrator: Has full access to user management, settings, and system configurations.
+Administrator: Ability to edit the Expert Software Architect list.
 
 ### Alternatives Considered
 Single-Factor Authentication:
 
-Considered but rejected due to insufficient security against credential theft and unauthorized access.
+Considered but rejected due to insufficient security against credential theft and unauthorized access. This approach does not provide adequate protection for sensitive information.
 Attribute-Based Access Control (ABAC):
 
-While ABAC offers flexibility, the complexity of managing policies based on multiple attributes was deemed too high for the current system requirements.
+While ABAC offers flexibility, the complexity of managing policies based on multiple attributes was deemed too high for the current system requirements. The simpler RBAC model aligns better with the organization’s needs and current resource capabilities.
 
 ### References
-[Include any relevant references, such as documentation, discussions, or related ADRs, that helped inform the decision.]
+NIST Special Publication 800-63: Digital Identity Guidelines NIST
+OWASP Authentication Cheat Sheet: OWASP
+Role-Based Access Control (RBAC) Explained: NIST RBAC
+Multi-Factor Authentication: Federal Trade Commission - Safeguarding Personal Information
+
 
 ### Date
 [Date of the decision]
