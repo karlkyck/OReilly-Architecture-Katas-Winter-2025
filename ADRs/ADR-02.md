@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 05: Handling Low Confidence Scores in AI-Enhanced Grading
+## ADR 02: Handling Low Confidence Scores in AI-Enhanced Grading
  
 ### Status
 - PROPOSED
