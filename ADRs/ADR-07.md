@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 17: Structured Formatting of Exam Inputs
+## ADR 07: Structured Formatting of Exam Inputs
 
 ### Status
 - <span style="color:green">ACCEPTED</span>
