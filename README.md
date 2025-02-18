@@ -47,49 +47,47 @@ ensuring they can effectively handle the anticipated influx of certification app
 
 - **Identify AI Opportunities**: Assess the current SoftArchCert system to identify specific areas where Generative AI 
 can be applied to improve efficiency, scalability, and accuracy in handling certification requests.
-   - [ADR 15: Using AI to generate Architecture questions for the exam](/ADRs/ADR-15.md)
-   - [ADR 18: Data Pipeline ETL](/ADRs/ADR-18.md)
+   - [ADR 01: Using AI to generate Architecture questions for the exam](/ADRs/ADR-01.md)
+   - [ADR 02: Data Pipeline ETL](/ADRs/ADR-02.md)
 
 - **Redesign System Architecture**: Develop a comprehensive plan for redesigning the SoftArchCert system architecture to
 incorporate AI capabilities, ensuring the architecture can support the anticipated growth in certification volume.
    - [ADR-03 Batching of grading process](/ADRs/ADR-03.md)
-   - [ADR 20: Approach for RAG implementation](/ADRs/ADR-20.md)
+   - [ADR 04: Approach for RAG implementation](/ADRs/ADR-04.md)
 
 - **Automate Grading and Review Processes**: Explore ways in which Generative AI can automate the grading and review of 
 software architecture submissions, reducing the burden on expert architects and accelerating response times for
 certification.
-    - [ADR-01 Aptitude Test Grader](/ADRs/ADR-01.md)
-    - [ADR-02 Failover of Marking Exams](/ADRs/ADR-02.md)
-    - [ADR-03 Batching of grading process](/ADRs/ADR-03.md)
-    - [ADR 14: Handling Low Confidence Scores in AI-Enhanced Grading](/ADRs/ADR-14.md)
-    - [ADR-17: Structured Formatting of Exam Inputs](/ADRs/ADR-17.md)
-    - [ADR-19: Architectural Submission Grader](/ADRs/ADR-19.md)
+    - [ADR-05 Aptitude Test Grader](/ADRs/ADR-05.md)
+    - [ADR 06: Handling Low Confidence Scores in AI-Enhanced Grading](/ADRs/ADR-06.md)
+    - [ADR-07: Structured Formatting of Exam Inputs](/ADRs/ADR-07.md)
+    - [ADR-08: Architectural Submission Grader](/ADRs/ADR-08.md)
 
 - **Enhance User Experience**: Identify improvements in user experience for both applicants and certifiers through the 
 integration of AI, ensuring that the certification process remains intuitive and efficient.
-    - [ADR-04 AI agent to monitor candidates for cheating](/ADRs/ADR-04.md)
+    - [ADR-09 AI agent to monitor candidates for cheating](/ADRs/ADR-09.md)
     - [ADR-10 Feedback from AI generated grading]((/ADRs/ADR-10.md))
-    - [ADR 16: Utilizing LLM Caching in the System](/ADRs/ADR-16.md)
+    - [ADR 11: Utilizing LLM Caching in the System](/ADRs/ADR-11.md)
 
 - **Ensure Compliance and Quality**: Establish mechanisms to maintain the integrity and quality of certification 
 standards, ensuring that the integration of AI does not compromise the rigorous evaluation process that Certifiable, 
 Inc. is known for.
-    - [ADR-05 Data Provisioning for Analytics and AI Model Development](/ADRs/ADR-05.md)
-    - [ADR-11: Hosting strategy](/ADRs/ADR-11.md)
-    - [ADR-13: Grader Output Validation](/ADRs/ADR-13.md)
+    - [ADR-12 Data Provisioning for Analytics and AI Model Development](/ADRs/ADR-12.md)
+    - [ADR-13: Hosting strategy](/ADRs/ADR-13.md)
+    - [ADR-14: Grader Output Validation](/ADRs/ADR-14.md)
 
 - **Maintain our Security and Reputation**: Identify areas of potential concern to our security posture andreputation as the company scales and introduces AI use.
-    - [Security Assessment](/ADRs/ADR-06.md)
-    - [Privacy Assessment](/ADRs/ADR-07.md)
-    - [Environmental Impact](/ADRs/ADR-08.md)
-    - [Authorization and Authentication](/ADRs/ADR-12.md)
+    - [Security Assessment](/ADRs/ADR-15.md)
+    - [Privacy Assessment](/ADRs/ADR-16.md)
+    - [Environmental Impact](/ADRs/ADR-17.md)
+    - [Authorization and Authentication](/ADRs/ADR-18.md)
 
 - **Improve operational effeciency and profitability**: Scaling in a manner that allows us to remain profitable and effecient
-    - [Operational Effeciency and Profitability](/ADRs/ADR-09.md)
+    - [Operational Effeciency and Profitability](/ADRs/ADR-19.md)
 
 ## Best Practices
 
-We will adhere to best practices in AI Architecture Design
+We will adhere to best practices in AI Architecture Design:
 
 - **Modular Design:**
 
