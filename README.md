@@ -52,38 +52,37 @@ can be applied to improve efficiency, scalability, and accuracy in handling cert
 
 - **Redesign System Architecture**: Develop a comprehensive plan for redesigning the SoftArchCert system architecture to
 incorporate AI capabilities, ensuring the architecture can support the anticipated growth in certification volume.
-   - [ADR-03 Batching of grading process](/ADRs/ADR-03.md)
-   - [ADR 04: Approach for RAG implementation](/ADRs/ADR-04.md)
+   - [ADR 03: Approach for RAG implementation](/ADRs/ADR-03.md)
 
 - **Automate Grading and Review Processes**: Explore ways in which Generative AI can automate the grading and review of 
 software architecture submissions, reducing the burden on expert architects and accelerating response times for
 certification.
-    - [ADR-05 Aptitude Test Grader](/ADRs/ADR-05.md)
-    - [ADR 06: Handling Low Confidence Scores in AI-Enhanced Grading](/ADRs/ADR-06.md)
-    - [ADR-07: Structured Formatting of Exam Inputs](/ADRs/ADR-07.md)
-    - [ADR-08: Architectural Submission Grader](/ADRs/ADR-08.md)
+    - [ADR-04 Aptitude Test Grader](/ADRs/ADR-04.md)
+    - [ADR 05: Handling Low Confidence Scores in AI-Enhanced Grading](/ADRs/ADR-05.md)
+    - [ADR-06: Structured Formatting of Exam Inputs](/ADRs/ADR-06.md)
+    - [ADR-07: Architectural Submission Grader](/ADRs/ADR-07.md)
 
 - **Enhance User Experience**: Identify improvements in user experience for both applicants and certifiers through the 
 integration of AI, ensuring that the certification process remains intuitive and efficient.
-    - [ADR-09 AI agent to monitor candidates for cheating](/ADRs/ADR-09.md)
-    - [ADR-10 Feedback from AI generated grading]((/ADRs/ADR-10.md))
-    - [ADR 11: Utilizing LLM Caching in the System](/ADRs/ADR-11.md)
+    - [ADR-08 AI agent to monitor candidates for cheating](/ADRs/ADR-08.md)
+    - [ADR-09 Feedback from AI generated grading]((/ADRs/ADR-09.md))
+    - [ADR 10: Utilizing LLM Caching in the System](/ADRs/ADR-10.md)
 
 - **Ensure Compliance and Quality**: Establish mechanisms to maintain the integrity and quality of certification 
 standards, ensuring that the integration of AI does not compromise the rigorous evaluation process that Certifiable, 
 Inc. is known for.
-    - [ADR-12 Data Provisioning for Analytics and AI Model Development](/ADRs/ADR-12.md)
-    - [ADR-13: Hosting strategy](/ADRs/ADR-13.md)
-    - [ADR-14: Grader Output Validation](/ADRs/ADR-14.md)
+    - [ADR-11 Data Provisioning for Analytics and AI Model Development](/ADRs/ADR-11.md)
+    - [ADR-12: Hosting strategy](/ADRs/ADR-12.md)
+    - [ADR-13: Grader Output Validation](/ADRs/ADR-13.md)
 
 - **Maintain our Security and Reputation**: Identify areas of potential concern to our security posture andreputation as the company scales and introduces AI use.
-    - [Security Assessment](/ADRs/ADR-15.md)
-    - [Privacy Assessment](/ADRs/ADR-16.md)
-    - [Environmental Impact](/ADRs/ADR-17.md)
-    - [Authorization and Authentication](/ADRs/ADR-18.md)
+    - [Security Assessment](/ADRs/ADR-14.md)
+    - [Privacy Assessment](/ADRs/ADR-15.md)
+    - [Environmental Impact](/ADRs/ADR-16.md)
+    - [Authorization and Authentication](/ADRs/ADR-17.md)
 
 - **Improve operational effeciency and profitability**: Scaling in a manner that allows us to remain profitable and effecient
-    - [Operational Effeciency and Profitability](/ADRs/ADR-19.md)
+    - [Operational Effeciency and Profitability](/ADRs/ADR-18.md)
 
 ## Best Practices
 
