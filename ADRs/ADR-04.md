@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 05: Aptitude Test Grader
+## ADR 04: Aptitude Test Grader
 
 ### Status
 
