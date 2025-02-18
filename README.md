@@ -48,9 +48,12 @@ ensuring they can effectively handle the anticipated influx of certification app
 - **Identify AI Opportunities**: Assess the current SoftArchCert system to identify specific areas where Generative AI 
 can be applied to improve efficiency, scalability, and accuracy in handling certification requests.
    - [ADR 15: Using AI to generate Architecture questions for the exam](/ADRs/ADR-15.md)
+   - [ADR 18: Data Pipeline ETL](/ADRs/ADR-18.md)
 
 - **Redesign System Architecture**: Develop a comprehensive plan for redesigning the SoftArchCert system architecture to
 incorporate AI capabilities, ensuring the architecture can support the anticipated growth in certification volume.
+   - [ADR-03 Batching of grading process](/ADRs/ADR-03.md)
+   - [ADR 20: Approach for RAG implementation](/ADRs/ADR-20.md)
 
 - **Automate Grading and Review Processes**: Explore ways in which Generative AI can automate the grading and review of 
 software architecture submissions, reducing the burden on expert architects and accelerating response times for
@@ -59,6 +62,8 @@ certification.
     - [ADR-02 Failover of Marking Exams](/ADRs/ADR-02.md)
     - [ADR-03 Batching of grading process](/ADRs/ADR-03.md)
     - [ADR 14: Handling Low Confidence Scores in AI-Enhanced Grading](/ADRs/ADR-14.md)
+    - [ADR-17: Structured Formatting of Exam Inputs](/ADRs/ADR-17.md)
+    - [ADR-19: Architectural Submission Grader](/ADRs/ADR-19.md)
 
 - **Enhance User Experience**: Identify improvements in user experience for both applicants and certifiers through the 
 integration of AI, ensuring that the certification process remains intuitive and efficient.
@@ -199,30 +204,20 @@ We chose the following as our top 3 architectural characteristics:
 
 By utilizing the [C4](https://c4model.com/) approach to visualize software architecture, we were able to depict 
 the dependencies among different components of our application while highlighting their relationships. We 
-will primarily concentrate on the C1 and C2 views to present an overarching overview, followed by a deeper exploration 
-of the core components in the C3 view.
-
-### Context diagram (C1)
-
-The context view ...
-
-The full Context diagram with the description of the Actors and Systems can be found ...
+will primarily concentrate on the C2 views to present an overarching overview, followed by a deeper exploration 
+of the core components in the C3 view later in the process.
 
 ### Container diagram (C2)
 
-The Container diagram shows
-
-### Components diagram (C3)
-
-To address the main challenges of this system, we created a components diagram:
+The Container diagram:
+  - [Architecture Submission](/Architecture Diagrams/C2.md)
 
 ## Known Limitations
 
 The current architecture has the following limitations:
+  - In the future we could implement an AI agent that utilizes machine learning algorithms to monitor candidates during assessments, analyse behavioral patterns, and identify anomalies that may indicate cheating but we decided against this for MVP in [ADR-04 AI Agent to monitor candidates for cheating](/ADRs/ADR-04.md)
 
-## Diagrams
-
-The diagrams 
+## Appendix:
 
 ## Deliverables for the Architecture Kata
 - Overview Narrative:
