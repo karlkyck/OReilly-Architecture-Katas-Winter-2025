@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR) Template
 
-## ADR 16: Privacy Assessment
+## ADR 15: Privacy Assessment
 
 ### Status
 - DRAFT
