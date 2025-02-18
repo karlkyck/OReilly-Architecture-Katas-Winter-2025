@@ -12,7 +12,6 @@ Our approach to the O'Reilly Winter Architectural Kata 2025
 - [Architecture](#architecture)
     - [Container diagram (C2)](#container-diagram-c2)
 - [Known Limitations](#known-limitations)
-- [Diagrams](#diagrams)
 - [Deliverables for the Architecture Kata](#deliverables-for-the-architecture-kata)
 - [Judge's Criteria for Evaluation](#judges-criteria-for-evaluation)
 
