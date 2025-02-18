@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 12: Data Provisioning for Analytics and AI Model Development
+## ADR 11: Data Provisioning for Analytics and AI Model Development
 
 ### Status
 - <span style="color:green">ACCEPTED</span>
