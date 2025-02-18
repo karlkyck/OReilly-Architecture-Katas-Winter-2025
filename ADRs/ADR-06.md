@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 14: Handling Low Confidence Scores in AI-Enhanced Grading
+## ADR 06: Handling Low Confidence Scores in AI-Enhanced Grading
  
 ### Status
 - PROPOSED
