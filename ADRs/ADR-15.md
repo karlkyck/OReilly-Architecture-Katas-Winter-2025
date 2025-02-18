@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 07: Privacy Assessment
+## ADR 15: Privacy Assessment
 
 ### Status
 - ACCEPTED
