@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 19: Architectural Submission Grader
+## ADR 08: Architectural Submission Grader
 
 ### Status
 
