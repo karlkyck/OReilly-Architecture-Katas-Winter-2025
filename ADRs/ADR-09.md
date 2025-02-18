@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 04: AI Agent to monitor candidates for cheating
+## ADR 09: AI Agent to monitor candidates for cheating
 
 ### Status
 - REJECTED
