@@ -10,9 +10,7 @@ Our approach to the O'Reilly Winter Architectural Kata 2025
 - [Requirements](#requirements)
 - [Architecture Characteristics](#architecture-characteristics)
 - [Architecture](#architecture)
-    - [Context diagram (C1)](#context-diagram-c1)
     - [Container diagram (C2)](#container-diagram-c2)
-    - [Components diagram (C3)](#components-diagram-c3)
 - [Known Limitations](#known-limitations)
 - [Diagrams](#diagrams)
 - [Deliverables for the Architecture Kata](#deliverables-for-the-architecture-kata)
@@ -206,8 +204,13 @@ of the core components in the C3 view later in the process.
 
 ### Container diagram (C2)
 
-The Container diagram:
-  - [Architecture Submission](/Architecture Diagrams/C2.md)
+Container diagrams for new architectural components
+
+#### Aptitude Test Grader Proposed Architecture
+![Aptitude Test Grader](/Architecture%20Diagrams/aptitude-test-grader.png)
+
+#### Architecture Submission Grader Proposed Architecture
+![Architecture Submission Grader](/Architecture%20Diagrams/architecture-submission-grader.png)
 
 ## Known Limitations
 
