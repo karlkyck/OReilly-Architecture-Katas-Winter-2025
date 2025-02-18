@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 01: Using AI to generate Architecture questions for the exam
+## ADR 05: Using AI to generate Architecture questions for the exam
 
 ### Status
 - IN PROGRESS
