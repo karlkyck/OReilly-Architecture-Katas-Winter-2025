@@ -72,6 +72,11 @@ Human Hours saved per test:
 
 Financial impact:
 
+[Azure / OpenAI Model Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/)
+
+[AWS Bedrock Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/)
+
+
 SLA Impact:
 
 ### Proposed Decision
