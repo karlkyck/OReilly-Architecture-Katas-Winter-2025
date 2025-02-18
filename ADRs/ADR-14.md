@@ -22,11 +22,11 @@ Storing Sensitive Data Unencrypted: This option was rejected due to the high ris
 Limited Logging and Monitoring: A decision was made against having a minimalistic approach to logging. While it would reduce complexity, it does not provide adequate oversight to identify security incidents in a timely manner.
 
 ### References
-OAuth 2.0 Specification: RFC 6749
-AES Encryption Overview: National Institute of Standards and Technology
-Microsoft STRIDE Threat Modeling Approach: Microsoft Docs on STRIDE
-GDPR Compliance Guidelines: General Data Protection Regulation (GDPR)
-CCPA Overview: California Consumer Privacy Act (CCPA)
+- OAuth 2.0 Specification: RFC 6749
+- AES Encryption Overview: National Institute of Standards and Technology
+- Microsoft STRIDE Threat Modeling Approach: Microsoft Docs on STRIDE
+- GDPR Compliance Guidelines: General Data Protection Regulation (GDPR)
+- CCPA Overview: California Consumer Privacy Act (CCPA)
 
 ### Date
 2025-2-18
