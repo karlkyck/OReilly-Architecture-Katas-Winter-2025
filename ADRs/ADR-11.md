@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 16: Utilizing LLM Caching in the System
+## ADR 11: Utilizing LLM Caching in the System
 
 ### Status
 - REJECTED
