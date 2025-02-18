@@ -36,10 +36,10 @@ Attribute-Based Access Control (ABAC):
 While ABAC offers flexibility, the complexity of managing policies based on multiple attributes was deemed too high for the current system requirements. The simpler RBAC model aligns better with the organization’s needs and current resource capabilities.
 
 ### References
-NIST Special Publication 800-63: Digital Identity Guidelines NIST
-OWASP Authentication Cheat Sheet: OWASP
-Role-Based Access Control (RBAC) Explained: NIST RBAC
-Multi-Factor Authentication: Federal Trade Commission - Safeguarding Personal Information
+- NIST Special Publication 800-63: Digital Identity Guidelines NIST
+- OWASP Authentication Cheat Sheet: OWASP
+- Role-Based Access Control (RBAC) Explained: NIST RBAC
+- Multi-Factor Authentication: Federal Trade Commission - Safeguarding Personal Information
 
 
 ### Date
