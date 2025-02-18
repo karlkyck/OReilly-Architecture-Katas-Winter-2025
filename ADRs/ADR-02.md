@@ -3,7 +3,7 @@
 ## ADR 02: Handling Low Confidence Scores in AI-Enhanced Grading
  
 ### Status
-- PROPOSED
+- ACCEPTED
 
 ### Context
 As we integrate Generative AI into the certification process for grading exams and submissions, it is vital to establish 
