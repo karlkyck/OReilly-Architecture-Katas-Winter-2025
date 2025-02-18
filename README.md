@@ -42,22 +42,22 @@ ensuring they can effectively handle the anticipated influx of certification app
 
 ### Key Objectives
 
-- **Identify AI Opportunities**: Assess the current SoftArchCert system to identify specific areas where Generative AI 
-can be applied to improve efficiency, scalability, and accuracy in handling certification requests.
-   - [ADR 01: Using AI to generate Architecture questions for the exam](/ADRs/ADR-01.md)
-   - [ADR 02: Data Pipeline ETL](/ADRs/ADR-02.md)
-
-- **Redesign System Architecture**: Develop a comprehensive plan for redesigning the SoftArchCert system architecture to
-incorporate AI capabilities, ensuring the architecture can support the anticipated growth in certification volume.
-   - [ADR 03: Approach for RAG implementation](/ADRs/ADR-03.md)
-
 - **Automate Grading and Review Processes**: Explore ways in which Generative AI can automate the grading and review of 
 software architecture submissions, reducing the burden on expert architects and accelerating response times for
 certification.
-    - [ADR-04 Aptitude Test Grader](/ADRs/ADR-04.md)
-    - [ADR 05: Handling Low Confidence Scores in AI-Enhanced Grading](/ADRs/ADR-05.md)
-    - [ADR-06: Structured Formatting of Exam Inputs](/ADRs/ADR-06.md)
-    - [ADR-07: Architectural Submission Grader](/ADRs/ADR-07.md)
+   - [ADR-01: Aptitude Test Grader](/ADRs/ADR-04.md)
+   - [ADR 02: Handling Low Confidence Scores in AI-Enhanced Grading](/ADRs/ADR-05.md)
+   - [ADR-03: Structured Formatting of Exam Inputs](/ADRs/ADR-06.md)
+   - [ADR-04: Architectural Submission Grader](/ADRs/ADR-07.md)
+
+- **Identify AI Opportunities**: Assess the current SoftArchCert system to identify specific areas where Generative AI 
+can be applied to improve efficiency, scalability, and accuracy in handling certification requests.
+   - [ADR-05: Using AI to generate Architecture questions for the exam](/ADRs/ADR-05.md)
+
+- **Redesign System Architecture**: Develop a comprehensive plan for redesigning the SoftArchCert system architecture to
+incorporate AI capabilities, ensuring the architecture can support the anticipated growth in certification volume.
+   - [ADR-06: Data Pipeline ETL](/ADRs/ADR-06.md)
+   - [ADR-07: Approach for RAG implementation](/ADRs/ADR-07.md)
 
 - **Enhance User Experience**: Identify improvements in user experience for both applicants and certifiers through the 
 integration of AI, ensuring that the certification process remains intuitive and efficient.
