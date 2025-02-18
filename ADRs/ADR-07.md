@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 08: Architectural Submission Grader
+## ADR 07: Architectural Submission Grader
 
 ### Status
 
