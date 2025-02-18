@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR) Template
 
-## ADR 18: User Authentication and Authorization
+## ADR 17: User Authentication and Authorization
 
 ### Status
 - PROPOSED
