@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR) Template
 
-## ADR 15: Security Assessment
+## ADR 14: Security Assessment
 
 ### Status
 - DRAFT
