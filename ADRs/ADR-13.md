@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR-11: Hosting strategy
+## ADR-13: Hosting strategy
 
 ### Status
 - ACCEPTED
