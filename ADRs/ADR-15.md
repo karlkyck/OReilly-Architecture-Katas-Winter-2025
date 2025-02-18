@@ -36,11 +36,11 @@ Implement a One-Size-Fits-All Data Governance Policy: This approach was consider
 Neglect Data Retention and Disposal Policies: This was not considered viable due to potential legal repercussions and the ethical obligation to protect personal data.
 
 ### References
-GDPR Compliance Guidelines: General Data Protection Regulation (GDPR)
-CCPA Overview: California Consumer Privacy Act (CCPA)
-Anonymization Techniques: NIST Special Publication 800-188
-Privacy Impact Assessment Guidelines: Office of the Privacy Commissioner of Canada
-Data Retention Policy Guidelines: National Archives and Records Administration
+- GDPR Compliance Guidelines: General Data Protection Regulation (GDPR)
+- CCPA Overview: California Consumer Privacy Act (CCPA)
+- Anonymization Techniques: NIST Special Publication 800-188
+- Privacy Impact Assessment Guidelines: Office of the Privacy Commissioner of Canada
+- Data Retention Policy Guidelines: National Archives and Records Administration
 
 ### Date
 2025-02-18
