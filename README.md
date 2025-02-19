@@ -188,11 +188,22 @@ Address potential ethical concerns about AI use in grading, ensuring that the re
 ## Architecture Characteristics
 We chose the following as our top 3 architectural characteristics:
 
-![Team](/Architecture%20Characteristics/architecture-characteristics.png)
+![Architecture Characteristics](/Architecture%20Characteristics/architecture-characteristics.png)
 
 - cost
 - scalability
 - accuracy
+
+## Architecture Style
+
+According to the TOP 2 driving characteristics:
+
+cost
+scalability
+
+a service-based architecture was selected to leverage the optimal balance between cost, feasibility, scalability, and testability (essential to accuracy).
+
+![Architecture Style](/architecture-style.png)
 
 ## Architecture
 
