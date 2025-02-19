@@ -43,6 +43,20 @@ ensuring they can effectively handle the anticipated influx of certification app
 
 ### Key Objectives
 
+----------------
+**AI Enhanced System - TDLR:**
+- AI grading for the Aptitude Test
+- AI RAG Ensemble based grading for Architecture Submission
+- AI Architecture Question generation
+- AI Generated Feedback
+
+*Rejected*
+- AI Agent to monitor candidate cheating (Rejected)
+  
+The following ADRs provide the detail around these decisions and the safeguards and other consideration.
+
+----------------
+
 - **Automate Grading and Review Processes**: Explore ways in which Generative AI can automate the grading and review of 
 software architecture submissions, reducing the burden on expert architects and accelerating response times for
 certification.
