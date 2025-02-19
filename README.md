@@ -9,6 +9,7 @@ Our approach to the O'Reilly Winter Architectural Kata 2025
 - [Event Storming](#event-storming)
 - [Requirements](#requirements)
 - [Architecture Characteristics](#architecture-characteristics)
+- [Architecture Style](#architecture-style)
 - [Architecture](#architecture)
     - [Container diagram (C2)](#container-diagram-c2)
 - [Known Limitations](#known-limitations)
@@ -198,8 +199,9 @@ We chose the following as our top 3 architectural characteristics:
 
 According to the TOP 2 driving characteristics:
 
-cost
-scalability
+- cost
+- scalability
+- testability (accuracy)
 
 a service-based architecture was selected to leverage the optimal balance between cost, feasibility, scalability, and testability (essential to accuracy).
 
