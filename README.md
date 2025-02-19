@@ -52,6 +52,7 @@ ensuring they can effectively handle the anticipated influx of certification app
 
 *Rejected*
 - AI Agent to monitor candidate cheating (Rejected)
+- LLM Caching in the system (Rejected)
   
 The following ADRs provide the detail around these decisions and the safeguards and other consideration.
 
