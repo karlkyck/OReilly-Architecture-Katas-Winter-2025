@@ -44,7 +44,7 @@ ensuring they can effectively handle the anticipated influx of certification app
 ### Key Objectives
 
 ----------------
-**AI Enhanced System - TDLR:**
+**AI Enhanced System - TLDR:**
 - AI grading for the Aptitude Test
 - AI RAG Ensemble based grading for Architecture Submission
 - AI Architecture Question generation
