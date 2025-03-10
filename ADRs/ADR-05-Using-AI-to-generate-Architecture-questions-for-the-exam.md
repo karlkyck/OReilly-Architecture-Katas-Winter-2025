@@ -43,6 +43,37 @@ Create a mechanism to collect feedback on the effectiveness of AI-generated ques
 This feedback will inform further iterations and improvements of the AI model, ensuring that it evolves based on real-world 
 performance.
 
+Guardrails:
+
+- Quality Assurance Processes:
+Establish strict guidelines for expert reviewers to follow when assessing AI-generated questions. This includes criteria for clarity, relevance, accuracy, and adherence to industry standards.
+
+- Bias Mitigation:
+Implement evaluation checks to ensure that the AI-generated questions do not exhibit biases against any group of candidates. Regular audits will be conducted to identify and address any emerging biases in the content generated.
+
+- Data Governance:
+Ensure compliance with data privacy regulations when utilizing reference materials for RAG. All training and retrieval data must be vetted for quality and relevance to prevent misinformation.
+
+- Training and Support:
+Provide training for expert reviewers on how to effectively evaluate AI-generated content, including understanding the limitations of AI and how to interpret its outputs.
+
+Evaluations (Eval Metrics)
+
+- Grading Accuracy of AI-Generated Questions:
+Track how well the AI-generated questions perform when used in exams, comparing results against expert-reviewed standards and candidate outcomes.
+
+- User Feedback Collection:
+Implement a system for collecting qualitative feedback from candidates about the clarity and relevance of the questions, as well as their perceived fairness.
+
+- Performance Monitoring:
+Measure the efficiency of the question generation process, including time taken to generate questions and the computational resources utilized, ensuring that it remains cost-effective.
+
+- Adaptability Assessments:
+Regularly evaluate how well the AI system adapts to changes in exam requirements, feedback from candidates and experts, and shifts in the software architecture field.
+
+- Review Consistency Metrics:
+Assess the consistency of evaluations provided by expert reviewers on AI-generated questions. This will help ensure that there is alignment in grading and feedback standards across different reviewers.
+
 ### Alternatives Considered
 - **Option 1:** Manual Question Creation:
 Continuing to rely solely on expert architects for question generation was considered. However, this approach is not 
