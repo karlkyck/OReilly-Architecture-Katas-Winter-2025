@@ -6,7 +6,7 @@
 - REJECTED
   
 ### Context
-It is very important that the certification process for applicants can be trusted. There is a very real possibility that
+It is very important that the certification process for applicants can be trusted and includes appropriate guardrails and evals. There is a very real possibility that
 candidates could use search engines or even AI to cheat during the assessments. An AI-driven monitoring system could 
 provide real-time insights into candidate behaviour, flagging potential cheating without disrupting the user experience.
 
@@ -29,7 +29,9 @@ The system will ensure a seamless user experience for applicants while providing
 suspicious behavior or anomalies in real time. This option would involve collecting video and interaction data and using
 that to create a dataset. We would then need to label a dataset of normal and suspicious behaviors to train the AI model.
 Frameworks such as TensorFlow or PyTorch could be used to develop AI algorithms to develop our model which could then be
-trained using our labelled dataset. Alerts could be added to notify when suspicious behaviour is detected.
+trained using our labelled dataset. Alerts could be added to notify when suspicious behaviour is detected. An important eval would 
+involve measuring the rate of false positives (e.g., legitimate candidates flagged for suspicious behavior) to ensure the 
+system's accuracy and to refine the algorithms used for detection.
 
 **Pros**:  
 Immediate feedback and alerts for certifiers.
