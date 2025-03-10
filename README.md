@@ -90,10 +90,10 @@ Inc. is known for.
     - [ADR-13: Grader Output Validation](/ADRs/ADR-13-Grader-Output-Validation.md)
 
 - **Maintain our Security and Reputation**: Identify areas of potential concern to our security posture and reputation as the company scales and introduces AI use.
-    - [Security Assessment](/ADRs/ADR-14-Processing-strategy-for-exam-grading.md)
-    - [Privacy Assessment](/ADRs/ADR-15.md)
-    - [Environmental Impact](/ADRs/ADR-16.md)
-    - [Authorization and Authentication](/ADRs/ADR-17.md)
+    - [Security Assessment](/ADRs/Security-Assessment.md)
+    - [Privacy Assessment](/ADRs/Privacy-Assessment.md)
+    - [Environmental Impact](/ADRs/Environmental-Impact.md)
+    - [Authorization and Authentication](/ADRs/User-Authentication-and-Authorization.md)
 
 - **Improve operational effeciency and profitability**: Scaling in a manner that allows us to remain profitable, efficient and able to meet our SLAs
     - [Operational Effeciency and Profitability](/ADRs/ADR-18.md)
