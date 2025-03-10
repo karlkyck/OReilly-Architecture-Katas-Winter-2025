@@ -45,7 +45,8 @@ Feedback can be generated following the completion of grading, allowing for a mu
 - Integration Challenges: Requires robust mechanisms to tie feedback back to the grading context.
 
 ### References
-- [ADR 01: Aptitude Test Grader](./ADR-01.md)
+- [ADR-01: Aptitude Test Grader](./ADR-01-Aptitude-Test-Grader.md)
+- [ADR-04: Architectural Submission Grader](./ADR-04-Architectural-Submission-Grader.md)
 
 ### Date
 [Date of the decision]
