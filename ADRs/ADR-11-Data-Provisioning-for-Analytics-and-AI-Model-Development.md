@@ -26,7 +26,7 @@ Setting up processes for regularly evaluating the quality of data being ingested
 
 Providing ongoing training and clear documentation for team members on how to effectively use the new lake-house architecture and tools. This will minimize operational risk associated with new technology adoption.
 
-We will also look at implementing the following Eval Metrics:
+We will also look at implementing the following Fitness Functions:
 
 Measuring the time taken to execute queries on both structured and unstructured data within the lake-house. Regular evaluations should be conducted to ensure that data retrieval times remain within acceptable thresholds.
 
