@@ -1,6 +1,4 @@
-# Architecture Decision Record (ADR)
-
-## ADR 17: User Authentication and Authorization
+## User Authentication and Authorization
 
 ### Status
 - ACCEPTED
