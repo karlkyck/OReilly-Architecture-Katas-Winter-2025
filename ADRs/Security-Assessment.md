@@ -1,5 +1,3 @@
-# Architecture Decision Record (ADR)
-
 ## Security Assessment
 
 ### Status
