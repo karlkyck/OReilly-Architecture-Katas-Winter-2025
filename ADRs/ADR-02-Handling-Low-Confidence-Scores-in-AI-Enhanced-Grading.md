@@ -1,13 +1,13 @@
 # Architecture Decision Record (ADR)
 
-## ADR 02: Handling Low Confidence Scores in AI-Enhanced Grading
+## ADR 02: Handling Low Confidence Scores in AI-Enhanced Grading using Guardrails
  
 ### Status
 - ACCEPTED
 
 ### Context
 As we integrate Generative AI into the certification process for grading exams and submissions, it is vital to establish 
-a strategy for managing low confidence scores produced by the AI models.
+a strategy for managing low confidence scores produced by the AI models, including guardrails where appropriate.
 Low confidence scores may indicate uncertainty in evaluations and could lead to incorrect grading outcomes, impacting 
 candidates’ careers and the credibility of the SoftArchCert certification.
 
