@@ -96,7 +96,7 @@ Inc. is known for.
     - [Authorization and Authentication](/ADRs/User-Authentication-and-Authorization.md)
 
 - **Improve operational effeciency and profitability**: Scaling in a manner that allows us to remain profitable, efficient and able to meet our SLAs
-    - [Operational Effeciency and Profitability](/ADRs/ADR-18.md)
+    - [Operational Effeciency and Profitability](/ADRs/Operational-Analysis.md)
 
 ## Best Practices
 
