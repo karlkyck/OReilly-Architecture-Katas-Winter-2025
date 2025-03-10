@@ -15,26 +15,26 @@ The solution should also ensure that sensitive candidate data is protected and a
 We have selected Option 1: Implement a lake-house architecture, as this provides the most efficient mechanism to create structured data to support our reporting and analytical needs, 
 whilst maintaining the flexibility of data in its raw form to enable AI model training. We will need to ensure the relevant Guardrails are in place; such as:
 
-Ensuring that the lake-house architecture implements strong data governance practices to protect sensitive candidate information and comply with regulations such as GDPR. This includes data anonymization where necessary and maintaining audit logs for data access and changes.
+- Ensuring that the lake-house architecture implements strong data governance practices to protect sensitive candidate information and comply with regulations such as GDPR. This includes data anonymization where necessary and maintaining audit logs for data access and changes.
 
-Implementing role-based access controls to restrict access to sensitive data based on user roles. This guardrail prevents unauthorized access and helps maintain data confidentiality and integrity.
+- Implementing role-based access controls to restrict access to sensitive data based on user roles. This guardrail prevents unauthorized access and helps maintain data confidentiality and integrity.
 Performance Monitoring:
 
-Establishing monitoring tools to continuously assess the performance of the lake-house architecture. Metrics should be defined for query performance, data loading times, and overall system responsiveness to ensure the solution meets performance expectations.
+- Establishing monitoring tools to continuously assess the performance of the lake-house architecture. Metrics should be defined for query performance, data loading times, and overall system responsiveness to ensure the solution meets performance expectations.
 
-Setting up processes for regularly evaluating the quality of data being ingested into the lake-house. Data quality checks must be in place to identify and rectify any anomalies or inaccuracies before the data is used for analysis or AI model training.
+- Setting up processes for regularly evaluating the quality of data being ingested into the lake-house. Data quality checks must be in place to identify and rectify any anomalies or inaccuracies before the data is used for analysis or AI model training.
 
-Providing ongoing training and clear documentation for team members on how to effectively use the new lake-house architecture and tools. This will minimize operational risk associated with new technology adoption.
+- Providing ongoing training and clear documentation for team members on how to effectively use the new lake-house architecture and tools. This will minimize operational risk associated with new technology adoption.
 
 We will also look at implementing the following Fitness Functions:
 
-Measuring the time taken to execute queries on both structured and unstructured data within the lake-house. Regular evaluations should be conducted to ensure that data retrieval times remain within acceptable thresholds.
+- Measuring the time taken to execute queries on both structured and unstructured data within the lake-house. Regular evaluations should be conducted to ensure that data retrieval times remain within acceptable thresholds.
 
-Continuously evaluating the costs associated with maintaining the lake-house architecture against the benefits gained from improved analytics and AI model development. This includes analyzing storage costs, query processing costs, and personnel training costs.
+- Continuously evaluating the costs associated with maintaining the lake-house architecture against the benefits gained from improved analytics and AI model development. This includes analyzing storage costs, query processing costs, and personnel training costs.
 
-Conducting regular audits to assess compliance with GDPR and other data protection regulations. The results of these audits will inform any necessary adjustments to data management practices.
+- Conducting regular audits to assess compliance with GDPR and other data protection regulations. The results of these audits will inform any necessary adjustments to data management practices.
 
-Gathering feedback from users who interact with the data provisioning system regarding their experiences, challenges, and perceived improvements in data accessibility and analysis capabilities.
+- Gathering feedback from users who interact with the data provisioning system regarding their experiences, challenges, and perceived improvements in data accessibility and analysis capabilities.
 
 Data Quality Metrics:
 
