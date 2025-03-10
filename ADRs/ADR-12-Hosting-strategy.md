@@ -62,7 +62,6 @@ Hosting databases and processing services in regional locations, while centraliz
 - Provisioning: Localized AI capabilities may not be as readily available or at the same price point as services available in the USA.
 
 ### References
-[Include any relevant references, such as documentation, discussions, or related ADRs, that helped inform the decision.]
 
 ### Date
-[Date of the decision]
+02/13/2025
