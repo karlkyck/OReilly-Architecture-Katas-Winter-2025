@@ -20,7 +20,7 @@ The decision is to implement a Retrieval-Augmented Generation (RAG) based ensemb
 
 *Description*:
 
-This approach utilizes multiple AI personas, each powered by a Large Language Model (LLM) to grade distinct aspects of the architectural submission, such as design, functionality, and compliance with standards. The system uses a RAG framework to provide relevant information to each persona. By parsing the submission to extract key features, the context for each LLM is narrowed, thus optimizing performance and controlling costs.
+This approach utilizes multiple AI personas, each powered by a Large Language Model (LLM) to grade distinct aspects of the architectural submission, such as design, functionality, and compliance with standards. The system uses a RAG framework to provide relevant information to each persona. By parsing the submission to extract key features, the context for each LLM is narrowed, thus optimizing performance and controlling costs. The RAG system will use curated materials, including excerpts of work from industry leaders or case-studies relevant to the particular questions being answered. Suitable attribution of source materials should be provided along with exam feedback.
 
 *Pros*:
 - Specialization: Allows each LLM to focus on a specific grading aspect, improving accuracy and depth of feedback and provides a guardrail against generalisation errors that nmight occur in a single model. The specialized nature of each AI persona allows for targeted evaluations of grading accuracy in different aspects of submissions. Metrics such as precision, recall, and F1 score can be employed to assess how well each persona performs relative to human assessments and across grading dimensions.
@@ -55,12 +55,12 @@ A rule-based system would be used, incorporating predefined criteria and guideli
 - Predictability: Offers predictable outcomes based on predefined rules and logic.
 - Lower Development Costs: Initial setup might be simpler than training and deploying multiple LLMs.
 
-### References
-- 
-
-### Date
-[Date of the decision]
-
 *Cons*:
 - Inflexibility: Lacks adaptability and may not effectively handle complex or creative submissions.
 - Maintenance: Requires continuous updates to keep rules current with evolving standards and criteria.
+
+### References
+- [ADR-07: Approach for RAG implementation](./ADR-07-Approach-for-RAG-implementation.md)
+
+### Date
+[Date of the decision]
