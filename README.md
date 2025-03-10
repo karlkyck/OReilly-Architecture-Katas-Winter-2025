@@ -101,7 +101,7 @@ Inc. is known for.
 
 ## Best Practices
 
-We will adhere to best practices in AI Architecture Design:
+We will adhere to best practices in AI Architecture Design ensuring we include Guardrails and Evals where appropriate:
 
 - **Modular Design:**
 
@@ -244,7 +244,7 @@ Container diagrams for new architectural components
 ## Known Limitations
 
 The current architecture has the following limitations:
-  - In the future we could implement an AI agent that utilizes machine learning algorithms to monitor candidates during assessments, analyse behavioral patterns, and identify anomalies that may indicate cheating but we decided against this for MVP in [ADR-04 AI Agent to monitor candidates for cheating](/ADRs/ADR-04.md)
+  - In the future we could implement an AI agent that utilizes machine learning algorithms to monitor candidates during assessments, analyse behavioral patterns, and identify anomalies that may indicate cheating but we decided against this for MVP as outlined in [ADR-08 AI Agent to monitor candidates for cheating](/ADRs/ADR-08-AI-Agent-to-monitor-candidates-for-cheating.md)
 
 ## Usage of GenAI
 
