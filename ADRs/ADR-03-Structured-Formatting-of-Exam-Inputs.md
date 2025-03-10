@@ -7,7 +7,10 @@
 
 ### Context
 As part of the initiative to introduce AI capabilities to the exam grading process, we need to consider any structured formatting needs for supplementary materials (e.g., C4 diagrams) that 
-candidates will need to input into the exam system. Any proposed structure should facilitate automated grading, ensure consistency, and enable analytics for further improvement of exam processes.
+candidates will need to input into the exam system. Any proposed structure should facilitate automated grading, ensure consistency, and enable analytics for further improvement of exam processes. 
+The adoption of PlantUML as a structured formatting tool for exam inputs establishes robust guardrails and facilitates meaningful evaluations. By ensuring consistency, accuracy, and quality in 
+submissions, Certifiable, Inc. can enhance the effectiveness of its AI-enhanced grading system and maintain high standards of certification for candidates. Regular assessments and feedback mechanisms 
+will also contribute to continuous improvement in both the grading process and candidate experience.
 
 ### Decision
 After evaluating the options, we recommend using Option 1: PlantUML as a structuring tool for supplementary materials e.g. diagrams. Although AI image processing presents an innovative approach, 
