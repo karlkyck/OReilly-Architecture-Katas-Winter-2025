@@ -1,5 +1,3 @@
-# Architecture Decision Record (ADR)
-
 ## Privacy Assessment
 
 ### Status
