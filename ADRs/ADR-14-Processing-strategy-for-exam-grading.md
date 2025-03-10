@@ -47,3 +47,6 @@ Each exam is processed immediately upon completion, allowing for rapid feedback 
 
 - Higher Costs: Continuous processing may not take advantage of cost variances in energy or compute resources.
 - Increased Complexity: Requires more sophisticated infrastructure to handle real-time processing and scaling.
+
+### Date
+02/13/2025
