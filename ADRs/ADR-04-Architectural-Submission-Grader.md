@@ -61,6 +61,7 @@ A rule-based system would be used, incorporating predefined criteria and guideli
 
 ### References
 - [ADR-07: Approach for RAG implementation](./ADR-07-Approach-for-RAG-implementation.md)
+- [ADR-09: Feedback from AI generated grading](./ADR-09-Feedback-from-AI-generated-grading.md)
 
 ### Date
 [Date of the decision]
