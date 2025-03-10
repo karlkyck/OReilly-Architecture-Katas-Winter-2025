@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 14: Security Assessment
+## Security Assessment
 
 ### Status
 - ACCEPTED
