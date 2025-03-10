@@ -12,7 +12,7 @@ The current grading system for architectural submissions requires an automated s
 
 ### Decision
 
-The decision is to implement a Retrieval-Augmented Generation (RAG) based ensemble system. This involves using multiple AI personas, each tasked with grading a specific aspect of the submission. The system will parse submissions to extract key features, tailoring the context for each LLM to reduce costs.
+The decision is to implement a Retrieval-Augmented Generation (RAG) based ensemble system. This involves using multiple AI personas, each tasked with grading a specific aspect of the submission. The system will parse submissions to extract key features, tailoring the context for each LLM to reduce costs. By designing the system to leverage feedback from both the AI personas and human reviewers, the architecture builds in a mechanism for continuous improvement. This guardrail ensures that the system evolves based on real-world performance and feedback, thereby enhancing the overall quality of grading.
 
 ### Alternatives Considered
 
@@ -23,8 +23,9 @@ The decision is to implement a Retrieval-Augmented Generation (RAG) based ensemb
 This approach utilizes multiple AI personas, each powered by a Large Language Model (LLM) to grade distinct aspects of the architectural submission, such as design, functionality, and compliance with standards. The system uses a RAG framework to provide relevant information to each persona. By parsing the submission to extract key features, the context for each LLM is narrowed, thus optimizing performance and controlling costs.
 
 *Pros*:
-- Specialization: Allows each LLM to focus on a specific grading aspect, improving accuracy and depth of feedback.
-- Cost Efficiency: By narrowing context, the system reduces the computational load and associated costs for each grading task.
+- Specialization: Allows each LLM to focus on a specific grading aspect, improving accuracy and depth of feedback and provides a guardrail against generalisation errors that nmight occur in a single model. The specialized nature of each AI persona allows for targeted evaluations of grading accuracy in different aspects of submissions. Metrics such as precision, recall, and F1 score can be employed to assess how well each persona performs relative to human assessments and across grading dimensions.
+- The system can include performance metrics that track the computational efficiency of each AI persona. Monitoring operational costs alongside grading speed will help ensure that the system remains cost-effective while delivering timely feedback to candidates.
+- Cost Efficiency: By narrowing context, the system reduces the computational load and associated costs for each grading task acting as a financial guardrail.
 
 *Cons*:
 - Complex System Integration: Requires sophisticated architecture to manage multiple AI personas and integrate their outputs.
