@@ -34,7 +34,9 @@ Continuously evaluating the costs associated with maintaining the lake-house arc
 
 Conducting regular audits to assess compliance with GDPR and other data protection regulations. The results of these audits will inform any necessary adjustments to data management practices.
 
-Gathering feedback from users who interact with the data provisioning system regarding their experiences, challenges, and perceived improvements in data accessibility and analysis capabilities.Data Quality Metrics:
+Gathering feedback from users who interact with the data provisioning system regarding their experiences, challenges, and perceived improvements in data accessibility and analysis capabilities.
+
+Data Quality Metrics:
 
 Implementing metrics to monitor the quality of data ingested into the lake-house, such as accuracy rates, completeness, and timeliness. This evaluation will help ensure that high-quality data is consistently available for AI model training and analysis.
 
