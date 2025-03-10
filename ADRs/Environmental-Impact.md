@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR) Template
 
-## ADR 16: Environmental Impact
+## Environmental Impact
 
 ### Status
 - ACCEPTED
