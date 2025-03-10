@@ -66,6 +66,7 @@ certification.
    - [ADR 02: Handling Low Confidence Scores in AI-Enhanced Grading](/ADRs/ADR-02-Handling-Low-Confidence-Scores-in-AI-Enhanced-Grading.md)
    - [ADR-03: Structured Formatting of Exam Inputs](/ADRs/ADR-03-Structured-Formatting-of-Exam-Inputs.md)
    - [ADR-04: Architectural Submission Grader](/ADRs/ADR-04-Architectural-Submission-Grader.md)
+   - [ADR-14: Processing strategy for exam grading](/ADRs/ADR-14-Processing-strategy-for-exam-grading.md)
 
 - **Identify AI Opportunities**: Assess the current SoftArchCert system to identify specific areas where Generative AI 
 can be applied to improve efficiency, scalability, and accuracy in handling certification requests.
