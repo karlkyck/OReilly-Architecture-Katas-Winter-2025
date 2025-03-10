@@ -20,7 +20,7 @@ The decision is to implement an AI-based grading system using a small Large Lang
 
 *Description*:
 
-A smaller LLM gives opportunity to provide a lower cost entry into AI generated grading, while we can increase the accuracy by leveraging curated reference materials via a RAG pattern.
+A smaller LLM gives opportunity to provide a lower cost entry into AI generated grading, while we can increase the accuracy by leveraging curated reference materials via a RAG pattern. These curated materials may include excerpts of work from industry leaders or case-studies relevant to the particular questions being answered. Suitable attribution of source materials should be provided along with exam feedback.
 
 *Pros*:
 - Efficiency: Significantly reduces the time required to grade submissions
