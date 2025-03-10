@@ -74,7 +74,7 @@ can be applied to improve efficiency, scalability, and accuracy in handling cert
 - **Redesign System Architecture**: Develop a comprehensive plan for redesigning the SoftArchCert system architecture to
 incorporate AI capabilities, ensuring the architecture can support the anticipated growth in certification volume.
    - [ADR-06: Data Pipeline ETL](/ADRs/ADR-06-Data-Pipeline-ETL.md)
-   - [ADR-07: Approach for RAG implementation](/ADRs/ADR-07-Approach-for-RAG-implementation.md.md)
+   - [ADR-07: Approach for RAG implementation](/ADRs/ADR-07-Approach-for-RAG-implementation.md)
 
 - **Enhance User Experience**: Identify improvements in user experience for both applicants and certifiers through the 
 integration of AI, ensuring that the certification process remains intuitive and efficient.
