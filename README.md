@@ -13,6 +13,7 @@ Our approach to the O'Reilly Winter Architectural Kata 2025
 - [Architecture](#architecture)
     - [Container diagram (C2)](#container-diagram-c2)
 - [Known Limitations](#known-limitations)
+- [Usage of GenAI](#usage-of-genai)
 - [Deliverables for the Architecture Kata](#deliverables-for-the-architecture-kata)
 - [Judge's Criteria for Evaluation](#judges-criteria-for-evaluation)
 
@@ -244,9 +245,13 @@ Container diagrams for new architectural components
 The current architecture has the following limitations:
   - In the future we could implement an AI agent that utilizes machine learning algorithms to monitor candidates during assessments, analyse behavioral patterns, and identify anomalies that may indicate cheating but we decided against this for MVP in [ADR-04 AI Agent to monitor candidates for cheating](/ADRs/ADR-04.md)
 
+## Usage of GenAI
+
+This repository contains content that was partially generated using Generative AI technologies. We have utilized these tools to assist in the creation and enhancement of certain aspects of the project. However, please note that all AI-generated content has been carefully reviewed and edited by our team to ensure accuracy, quality, and relevance before being included in the project.
+
 ## Appendix:
 
-## Deliverables for the Architecture Kata
+### Deliverables for the Architecture Kata
 - Overview Narrative:
    A short narrative describing how the team used AI in the certification system.
 - Diagrams:
@@ -258,7 +263,7 @@ The current architecture has the following limitations:
 - Presentation Video (for semi-final teams):
    A five-minute video describing the team’s approach to integrating AI into the certification process.
 
-## Judge's Criteria for Evaluation
+### Judge's Criteria for Evaluation
 
 - Innovative Use of Generative AI:
    Assess the novelty and creativity of AI applications in the solution.
