@@ -1,5 +1,3 @@
-# Architecture Decision Record (ADR) Template
-
 ## Environmental Impact
 
 ### Status
