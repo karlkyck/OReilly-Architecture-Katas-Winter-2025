@@ -19,7 +19,7 @@ Our approach to the O'Reilly Winter Architectural Kata 2025
 
 ## Team
 
-![Team](./team-litmus.png)
+![Team](./litmus-members.png)
 
 - Karl Kyck, [Linkedin](https://www.linkedin.com/in/karlkyck/)
 - Ivan Houston, [Linkedin](https://www.linkedin.com/in/ivan-houston-019ab1169/)
@@ -92,7 +92,7 @@ Inc. is known for.
 
 ## Product Implementation Decisions
 
-- **Maintain our Security and Reputation**: Identify areas of potential concern to our security posture and reputation as the company scales and introduces AI use.
+- **Maintain our Reputation**: Identify areas of potential concern to our security posture and reputation as the company scales and introduces AI use.
     - [Security Assessment](/ProductImplementationDecisions/Security-Assessment.md)
     - [Privacy Assessment](/ProductImplementationDecisions/Privacy-Assessment.md)
     - [Environmental Impact](/ProductImplementationDecisions/Environmental-Impact.md)
