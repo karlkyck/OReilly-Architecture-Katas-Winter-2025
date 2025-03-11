@@ -5,6 +5,7 @@ Our approach to the O'Reilly Winter Architectural Kata 2025
 - [Team](#team)
 - [Introduction](#introduction)
 - [Key Objectives](#key-objectives)
+- [Product Implementation Decisions](#product-implementation-decisions)
 - [Best Practices](#best-practices)
 - [Event Storming](#event-storming)
 - [Requirements](#requirements)
