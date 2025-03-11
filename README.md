@@ -5,18 +5,27 @@ Our approach to the O'Reilly Winter Architectural Kata 2025
 - [Team](#team)
 - [Introduction](#introduction)
 - [Key Objectives](#key-objectives)
+  - [Architectural Decision Records (ADRs)](#architectural-decision-records-adrs)
 - [Product Implementation Decisions](#product-implementation-decisions)
 - [Best Practices](#best-practices)
 - [Event Storming](#event-storming)
 - [Requirements](#requirements)
+  - [Functional Requirements](#functional-requirements)
+  - [Non-Functional Requirements](#non-functional-requirements)
 - [Architecture Characteristics](#architecture-characteristics)
 - [Architecture Style](#architecture-style)
 - [Architecture](#architecture)
-    - [Container diagram (C2)](#container-diagram-c2)
+  - [Container Diagram (C2)](#container-diagram-c2)
+    - [Aptitude Test Grader Proposed Architecture](#aptitude-test-grader-proposed-architecture)
+    - [Architecture Submission Grader Proposed Architecture](#architecture-submission-grader-proposed-architecture)
 - [Known Limitations](#known-limitations)
 - [Usage of GenAI](#usage-of-genai)
-- [Deliverables for the Architecture Kata](#deliverables-for-the-architecture-kata)
-- [Judge's Criteria for Evaluation](#judges-criteria-for-evaluation)
+- [Appendix](#appendix)
+  - [Deliverables for the Architecture Kata](#deliverables-for-the-architecture-kata)
+  - [Judge's Criteria for Evaluation](#judges-criteria-for-evaluation)
+- [Glossary](#glossary)
+- [Version History](#version-history)
+
 
 ## Team
 
@@ -31,17 +40,25 @@ Our approach to the O'Reilly Winter Architectural Kata 2025
 
 ## Introduction
 
-Certifiable, Inc. is an accredited leader in the software architecture certification market, primarily based in the 
-United States. As the owner of a substantial market share, the company’s flagship system, SoftArchCert, provides 
-accredited certification for qualified software architects. With a team of expert software architects 
-responsible for creating certification tests and reviewing submissions, Certifiable, Inc. has established itself as a 
-trusted authority in software architecture 
-certification. However, recent global acceptance of software architecture certification has led to a significant 
-increase in demand, particularly from regions such as Europe, the U.K., and Asia. As the company anticipates a surge in 
-certification requests — projected to increase by 5-10 times the current volume — there is growing concern that the 
-existing manual processes will be insufficient to meet this heightened demand. In response to this challenge, 
-Certifiable, Inc. is exploring the integration of Generative AI to enhance their systems and streamline operations, 
-ensuring they can effectively handle the anticipated influx of certification applications.
+
+Certifiable, Inc. is an accredited leader in the software architecture certification market, primarily based in the United States. As the owner of a substantial market share, the company’s flagship system, SoftArchCert, provides accredited certification for qualified software architects.
+
+### Current Market Position
+
+- Established as a trusted authority in software architecture certification.
+- Significant market share in the United States.
+
+### Challenge
+
+- Recent global acceptance leading to increased demand from Europe, the U.K., and Asia.
+- Anticipated surge in certification requests (5-10 times current volume).
+- Concerns over existing manual processes meeting the heightened demand.
+
+### Response
+
+- Exploring the integration of Generative AI to enhance systems and streamline operations.
+- **Goals:** Effectively handle the influx of certification applications.
+
 
 ### Key Objectives
 
@@ -59,6 +76,7 @@ ensuring they can effectively handle the anticipated influx of certification app
 The following ADRs provide the detail around these decisions and the safeguards and other consideration.
 
 ----------------
+### Architectural Decision Records (ADRs)
 
 - **Automate Grading and Review Processes**: Explore ways in which Generative AI can automate the grading and review of 
 software architecture submissions, reducing the burden on expert architects and accelerating response times for
@@ -256,36 +274,37 @@ This repository contains content that was partially generated using Generative A
 ## Appendix:
 
 ### Deliverables for the Architecture Kata
-- Overview Narrative:
-   A short narrative describing how the team used AI in the certification system.
-- Diagrams:
-   Comprehensive and targeted views of each use of AI in the system.
-- Architectural Decision Records (ADRs):
-   Document AI implementation decisions, including trade-off analysis.
-- Implementation Details:
-   Provide pertinent implementation details for the AI components.
-- Presentation Video (for semi-final teams):
-   A five-minute video describing the team’s approach to integrating AI into the certification process.
+
+- **Overview Narrative**
+  - A short narrative describing how the team used AI in the certification system.
+- **Diagrams**
+  - Comprehensive and targeted views of each use of AI in the system.
+- **Architectural Decision Records (ADRs)**
+  - Document AI implementation decisions, including trade-off analysis.
+- **Implementation Details**
+  - Provide pertinent implementation details for the AI components.
+- **Presentation Video (for semi-final teams)**
+  - A five-minute video describing the team’s approach to integrating AI into the certification process.
 
 ### Judge's Criteria for Evaluation
 
-- Innovative Use of Generative AI:
-   Assess the novelty and creativity of AI applications in the solution.
+- **Innovative Use of Generative AI**
+  - Assess the novelty and creativity of AI applications in the solution.
 
-- Suitability of the Solution:
-   Ensure that the solution addresses the stated constraints and requirements.
+- **Suitability of the Solution**
+  - Ensure that the solution addresses the stated constraints and requirements.
 
-- Detail and Clarity:
-   Provide appropriate levels of detail in documentation and diagrams.
+- **Detail and Clarity**
+  - Provide appropriate levels of detail in documentation and diagrams.
 
-- Use of AI Architecture Patterns:
-   Adhere to best practices in AI architecture design.
+- **Use of AI Architecture Patterns**
+  - Adhere to best practices in AI architecture design.
 
-- Avoidance of Anti-Patterns:
-   Ensure that the design does not incorporate known anti-patterns.
+- **Avoidance of Anti-Patterns**
+  - Ensure that the design does not incorporate known anti-patterns.
 
-- Compatibility with Existing Architecture:
-   Validate that the architectural characteristics of the AI enhancements align with the current system architecture.
+- **Compatibility with Existing Architecture**
+  - Validate that the architectural characteristics of the AI enhancements align with the current system architecture.
 
-- Validation and Verification:
-   Establish processes for validating and verifying AI-generated results to ensure accuracy.
+- **Validation and Verification**
+  - Establish processes for validating and verifying AI-generated results to ensure accuracy.
