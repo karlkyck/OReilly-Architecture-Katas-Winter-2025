@@ -11,10 +11,15 @@ Certifiable, Inc. is preparing for significant scaling, with the potential to gr
 - **Current Number of Scoring Experts**: 300
 - **Current Weekly Candidates**: 200
 - **Current Income from Certification Exams**: $160,000
+- **Current Architecture Expert Hourly Rate**: $50
+- **Current Certification Income**: $800
 - **Grading Time for Tests**:
   - Test 1 (Aptitude): 3 hours per candidate
   - Test 2 (Architecture Submission): 8 hours per candidate
   - **Total Grading Time per Candidate**: 11 hours
+  - **Total Grading Cost**: $550
+  - **Total Profit per candidate (Per-Operating Cost)**: $250
+
 
 **Current Weekly Grading Capacity**
 - **Total Weekly Hours Available per Expert**: 40
@@ -68,7 +73,24 @@ Enhancing operational efficiency presents an opportunity to reduce lead times fo
 
 
 ### AI Enabled Assessment Impact
-Human Hours saved per test:
+- **Current Architecture Expert Hourly Rate**: $50
+- **Current Certification Income**: $800
+- **Grading Time for Tests - Manual**:
+  - Test 1 (Aptitude): 3 hours per candidate
+  - Test 2 (Architecture Submission): 8 hours per candidate
+  - **Total Grading Time per Candidate**: 11 hours
+  - **Test 1 cost per grading**: $150
+  - **Test 2 cost per grading**: $400
+  - **Total Grading Cost**: $550
+  - **Total Profit per candidate (Per-Operating Cost)**: $250
+
+- **Current Certification Income**: $800
+- **Grading Time for Tests - AI**:
+  - **Test 1 cost per grading - AI** (Assumpation 20 Short Questions): $0.13
+  - **Test 2 cost per grading - AI**: (Assumptions: 10 Architectural Personas, 50k Tokens per Persona. Lama3.2..) 
+  - **Total Grading Cost**: $
+  - **Total Profit per candidate (Per-Operating Cost)**: $
+
 
 Financial impact:
 
