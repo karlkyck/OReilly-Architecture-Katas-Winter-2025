@@ -93,13 +93,13 @@ Inc. is known for.
 ## Product Implementation Decisions
 
 - **Maintain our Security and Reputation**: Identify areas of potential concern to our security posture and reputation as the company scales and introduces AI use.
-    - [Security Assessment](/ADRs/Security-Assessment.md)
-    - [Privacy Assessment](/ADRs/Privacy-Assessment.md)
-    - [Environmental Impact](/ADRs/Environmental-Impact.md)
-    - [Authorization and Authentication](/ADRs/User-Authentication-and-Authorization.md)
+    - [Security Assessment](/ProductImplementationDecisions/Security-Assessment.md)
+    - [Privacy Assessment](/ProductImplementationDecisions/Privacy-Assessment.md)
+    - [Environmental Impact](/ProductImplementationDecisions/Environmental-Impact.md)
+    - [Authorization and Authentication](/ProductImplementationDecisions/User-Authentication-and-Authorization.md)
 
 - **Improve operational effeciency and profitability**: Scaling in a manner that allows us to remain profitable, efficient and able to meet our SLAs
-    - [Operational Effeciency and Profitability](/ADRs/Operational-Analysis.md)
+    - [Operational Effeciency and Profitability](/ProductImplementationDecisions/Operational-Analysis.md)
 
 ## Best Practices
 
