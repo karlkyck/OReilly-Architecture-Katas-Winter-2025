@@ -172,57 +172,57 @@ systems. This document summarizes our outcomes and serves as a guide to understa
 
 ## Requirements
 
-- **Functional Requirements**
+### Functional Requirements
 
-1) Integration of Generative AI:
-Identify opportunities to incorporate Generative AI into the SoftArchCert system to enhance certification processes.
+1. **Integration of Generative AI**
+   - Identify opportunities to incorporate Generative AI into the SoftArchCert system to enhance certification processes.
 
-2) Automated Grading:
-Implement AI-assisted grading for short answer questions in the aptitude test and architecture submissions to reduce the manual workload on expert software architects.
+2. **Automated Grading**
+   - Implement AI-assisted grading for short answer questions in the aptitude test and architecture submissions to reduce the manual workload on expert software architects.
 
-3) Certification Process Enhancement:
-Automate parts of the certification process to improve efficiency, such as notification systems for candidates based on their test results.
+3. **Certification Process Enhancement**
+   - Automate parts of the certification process to improve efficiency, such as notification systems for candidates based on their test results.
 
-4) User Interface Improvements:
-Develop an intuitive user interface for candidates, HR representatives, and expert software architects to interact with the certification system.
+4. **User Interface Improvements**
+   - Develop an intuitive user interface for candidates, HR representatives, and expert software architects to interact with the certification system.
 
-5) Scalability:
-The system must be designed to handle a significant increase in certification requests (5-10X) due to global expansion.
+5. **Scalability**
+   - The system must be designed to handle a significant increase in certification requests (5-10X) due to global expansion.
 
-6) Dynamic Case Study Management:
-Implement a mechanism to dynamically manage and update case studies and questions to prevent information leaks and maintain current relevance in the certification process.
+6. **Dynamic Case Study Management**
+   - Implement a mechanism to dynamically manage and update case studies and questions to prevent information leaks and maintain current relevance in the certification process.
 
-7) Data Retrieval:
-Enable effective information retrieval processes that provide relevant data and context to the Generative AI model when grading submissions.
+7. **Data Retrieval**
+   - Enable effective information retrieval processes that provide relevant data and context to the Generative AI model when grading submissions.
 
-8) Feedback Mechanism:
-Provide candidates with detailed feedback on their performance, including AI-generated insights alongside expert evaluations.
+8. **Feedback Mechanism**
+   - Provide candidates with detailed feedback on their performance, including AI-generated insights alongside expert evaluations.
 
-- **Non-Functional Requirements**
+### Non-Functional Requirements
 
-1) Accuracy and Reliability:
-Ensure the accuracy of grading and certification processes, as incorrect assessments can significantly impact candidates' careers.
+1. **Accuracy and Reliability**
+   - Ensure the accuracy of grading and certification processes, as incorrect assessments can significantly impact candidates' careers.
 
-2) Compliance and Standards:
-The system must comply with relevant legal and accreditation standards, including those set by the Software Architecture Licensing Board (SALB).
+2. **Compliance and Standards**
+   - The system must comply with relevant legal and accreditation standards, including those set by the Software Architecture Licensing Board (SALB).
 
-3) Performance and Efficiency:
-Maintain a guaranteed turnaround time for grading (1 week for both tests) while accommodating increased demand without compromising service levels.
+3. **Performance and Efficiency**
+   - Maintain a guaranteed turnaround time for grading (1 week for both tests) while accommodating increased demand without compromising service levels.
 
-4) Cost Management:
-Analyze the cost implications of integrating AI into the certification process and ensure that it remains within budgetary constraints.
+4. **Cost Management**
+   - Analyze the cost implications of integrating AI into the certification process and ensure that it remains within budgetary constraints.
 
-5) Security and Data Privacy:
-Implement data security measures to protect sensitive candidate information and certification data.
+5. **Security and Data Privacy**
+   - Implement data security measures to protect sensitive candidate information and certification data.
 
-6) Monitoring and Evaluation:
-Establish metrics and monitoring tools to evaluate the performance and effectiveness of the AI-enhanced grading system.
+6. **Monitoring and Evaluation**
+   - Establish metrics and monitoring tools to evaluate the performance and effectiveness of the AI-enhanced grading system.
 
-7) Documentation and Compliance:
-Ensure proper documentation of AI implementation processes for compliance and auditing purposes.
+7. **Documentation and Compliance**
+   - Ensure proper documentation of AI implementation processes for compliance and auditing purposes.
 
-8) User Trust and Ethics:
-Address potential ethical concerns about AI use in grading, ensuring that the responses generated are appropriate and reliable.
+8. **User Trust and Ethics**
+   - Address potential ethical concerns about AI use in grading, ensuring that the responses generated are appropriate and reliable.
 
 ## Architecture Characteristics
 We chose the following as our top 3 architectural characteristics:
