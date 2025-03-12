@@ -14,6 +14,8 @@ The goal is to architect a Retrieval-Augmented Generation (RAG) system that can 
 
 The decision is to explore an architecture using AWS native services, particularly AWS Bedrock for AI model deployment and Step Functions for orchestration, to implement the RAG system. This approach aims to integrate seamlessly into existing AWS infrastructure, leveraging its scalability and reliability.
 
+![Architectural diagram](./images/ADR-09.png)
+
 ### Alternatives Considered
 
 #### 1. AWS Native Services with Bedrock and Step Functions
