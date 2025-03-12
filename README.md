@@ -15,6 +15,7 @@ Our approach to the O'Reilly Winter Architectural Kata 2025
 - [Architecture Characteristics](#architecture-characteristics)
 - [Architecture Style](#architecture-style)
 - [Architecture](#architecture)
+  - [System Context Diagram (C1)](#system-context-diagram-c1)
   - [Container Diagram (C2)](#container-diagram-c2)
     - [Aptitude Test Grader Proposed Architecture](#aptitude-test-grader-proposed-architecture)
     - [Architecture Submission Grader Proposed Architecture](#architecture-submission-grader-proposed-architecture)
@@ -256,6 +257,10 @@ By utilizing the [C4](https://c4model.com/) approach to visualize software archi
 the dependencies among different components of our application while highlighting their relationships. We 
 will primarily concentrate on the C2 views to present an overarching overview, followed by a deeper exploration 
 of the core components in the C3 view later in the process.
+
+### System context diagram (C1)
+
+![System Context Diagam](./Architecture%20Diagrams/system-context.png)
 
 ### Container diagram (C2)
 
