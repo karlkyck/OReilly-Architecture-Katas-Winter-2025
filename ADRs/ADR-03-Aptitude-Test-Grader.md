@@ -14,6 +14,8 @@ The current process of grading short answer submissions for examinations is manu
 
 The decision is to implement an AI-based grading system using a small Large Language Model (LLM) supported by a Retrieval-Augmented Generation (RAG) pattern. This solution will leverage tailored reference materials curated by the Expert Architects, enhancing the accuracy and reliability of the grading process. We will include guardrails to ensure the grading is accurate and does not degrade over time. Such guardrails should include  setting confidence thresholds, defining criteria that must be followed when evaluating submissions and ensuring the training data is accurate, representative and up to date. Regular audits will be required to maintain quality.
 
+![Architecture Style](./images/ADR-03.png)
+
 ### Alternatives Considered
 
 #### **1. Using a small LLM supported by RAG pattern**
