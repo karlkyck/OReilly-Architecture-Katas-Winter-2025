@@ -17,6 +17,8 @@ compare AI results with a curated set of historical answers, evaluating consiste
 to candidates. By integrating historical data into the validation process, we aim to improve the reliability of AI-generated 
 assessments and maintain high certification standards.
 
+![Architectural diagram](./images/ADR-17.png)
+
 ### Alternatives Considered
 
 - **Option 1:** Manual Review by Human Experts: While effective, this approach is labor-intensive and may not scale with increased certification requests.
