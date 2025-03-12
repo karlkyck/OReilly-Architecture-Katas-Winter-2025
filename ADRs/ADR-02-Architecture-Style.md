@@ -20,7 +20,7 @@ Depending on the style, additional decisions like databases, communication patte
 
 According to the requirements and the [Architecture Characteristics](../Architecture%20Characteristics/architecture-characteristics.md) we decided to use the Service Based Architecture to better support testability, maintainability, feasibility (simplicity, and cost effectiveness). 
 
-This compliments the existing architecture as it too follows an event-based architecture style. This allows us to integrate our additional components into existing components and databases thereby reducing complexity, and taking advantage of the existing driving architectures of the current system.
+This compliments the existing architecture as it too follows an service-based architecture style. This allows us to integrate our additional components into existing components and databases thereby reducing complexity, and taking advantage of the existing driving architectures of the current system.
 
 ![Architecture Style](../ADRs/images/ADR-02-architecture-style.png)
 

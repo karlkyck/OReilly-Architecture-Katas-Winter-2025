@@ -7,6 +7,8 @@ Specifically we wanted to understand:
 - The RAG pattern, how can it be applied, and what cloud-based services can be availed of.
 - Prompt engineering to craft appropriate prompts that produce the desired grading and feedback of exam submissions.
 
+![RAG Pattern](./rag-pattern.png)
+
 ### Experiment 1: Test 1 Short Answer Question Context Loading & Prompting
 
 We started with a low fidelity experiment using ChatGPT web interface directly to simulate the RAG retrieval (by pasting contextual source material into the prompt), and crafting an appropriate prompt around the contextual information that included the exam question and the candidates answer to the exam question. The following is the prompt that we crafted with contextual information, and the resultant output from the LLM:
