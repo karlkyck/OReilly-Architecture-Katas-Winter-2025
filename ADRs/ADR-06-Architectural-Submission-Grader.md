@@ -12,7 +12,7 @@ The current grading system for architectural submissions requires an automated s
 
 ### Decision
 
-The decision is to implement a Retrieval-Augmented Generation (RAG) based ensemble system. This involves using multiple AI personas, each tasked with grading a specific aspect of the submission. The system will parse submissions to extract key features, tailoring the context for each LLM to reduce costs. By designing the system to leverage feedback from both the AI personas and human reviewers, the architecture builds in a mechanism for continuous improvement. This guardrail ensures that the system evolves based on real-world performance and feedback, thereby enhancing the overall quality of grading.
+The decision is to implement a [Retrieval-Augmented Generation (RAG)](./ADR-09-Approach-for-RAG-implementation.md) based ensemble system. This involves using multiple AI personas, each tasked with grading a specific aspect of the submission. The system will parse submissions to extract key features, tailoring the context for each LLM to reduce costs. By designing the system to leverage feedback from both the AI personas and human reviewers, the architecture builds in a mechanism for continuous improvement. This ensures that the system evolves based on real-world performance and feedback, thereby enhancing the overall quality of grading.
 
 ![Architectural diagram](./images/ADR-06.png)
 
