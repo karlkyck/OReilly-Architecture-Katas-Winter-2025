@@ -12,6 +12,8 @@ The goal is to enable efficient analytics and AI model development, ensuring tim
 ### Decision
 After evaluating the options, we recommend using Option 1: Batch ETL, as not having instant access to analytical data is an acceptable trade-off to achieve the reduced operational costs that a batch architecture provides.
 
+![Architectural diagram](./images/ADR-08.png)
+
 ### Alternatives Considered
 - **Option 1:** Batch ETL (Extract, Transform, Load)  
   **Description**: An ETL process involves extracting data from operational systems, transforming it to fit analytical needs,   
