@@ -11,6 +11,8 @@ The LLM-powered grading system aims to automate the assessment of short answers 
 ### Decision
 The decision is to have Expert Architects validate a random sample of automatically graded tests. This approach involves selecting a small percentage of submissions to be reviewed manually, comparing AI-generated grades with expert assessments to ensure accuracy. Statistical analysis of grading may be something we want to explore as a further validation or benchmarking of our AI-grading systems.
 
+![Architectural diagram](./images/ADR-15.png)
+
 ### Approach
 - Establish clear criteria for the expert reviews, ensuring that all grading is conducted consistently and according to standardized metrics. This reduces the risk of subjective bias during evaluations.
 - Implement a robust random sampling methodology to select the submissions for manual review. This ensures that the sample is representative and minimizes the potential for bias in the selection process.
