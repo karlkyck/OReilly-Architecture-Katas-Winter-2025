@@ -20,6 +20,7 @@ Our approach to the O'Reilly Winter Architectural Kata 2025
     - [Architecture Submission Grader Proposed Architecture](#architecture-submission-grader-proposed-architecture)
 - [Known Limitations](#known-limitations)
 - [Usage of GenAI](#usage-of-genai)
+- [Research](#research)
 - [Appendix](#appendix)
   - [Deliverables for the Architecture Kata](#deliverables-for-the-architecture-kata)
   - [Judge's Criteria for Evaluation](#judges-criteria-for-evaluation)
@@ -236,7 +237,7 @@ We chose the following as our top 3 [architectural characteristics](./Architectu
 
 ## Architecture Style
 
-According to the TOP 3 driving characteristics and TOP 2 implicit characteristics:
+According to the TOP 3 driving characteristics and TOP 2 implicit characteristics*:
 
 - cost (feasability)*
 - maintainability*
@@ -274,6 +275,13 @@ The current architecture has the following limitations:
 ## Usage of GenAI
 
 This repository contains content that was partially generated using Generative AI technologies. We have utilized these tools to assist in the creation and enhancement of certain aspects of the project. However, please note that all AI-generated content has been carefully reviewed and edited by our team to ensure accuracy, quality, and relevance before being included in the project.
+
+## Research
+
+Research was undertaken to understand what mature AI capabilites, architecture patterns, practices, and approaches are currently available in the industry:
+
+- [Prompt engineering and RAG retrieval simulation](./Research/prompt-research.md)
+- [Experimental application demonstrating RAG vector database loading, retrieval, LLM context loading, and prompting](./Research/rag-pattern-experimental-app.md)
 
 ## Appendix:
 
