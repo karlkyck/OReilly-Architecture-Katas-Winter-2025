@@ -11,28 +11,19 @@ The LLM-powered grading system aims to automate the assessment of short answers 
 ### Decision
 The decision is to have Expert Architects validate a random sample of automatically graded tests. This approach involves selecting a small percentage of submissions to be reviewed manually, comparing AI-generated grades with expert assessments to ensure accuracy. Statistical analysis of grading may be something we want to explore as a further validation or benchmarking of our AI-grading systems.
 
-## Guardrails
-Establish clear criteria for the expert reviews, ensuring that all grading is conducted consistently and according to standardized metrics. This reduces the risk of subjective bias during evaluations.
-
-Implement a robust random sampling methodology to select the submissions for manual review. This ensures that the sample is representative and minimizes the potential for bias in the selection process.
-
-Create a system for integrating insights gained from expert reviews back into the AI model to facilitate continuous improvement. This feedback loop will enhance grading accuracy over time.
-
-Regularly monitor the performance of the grading system to ensure it meets defined accuracy and reliability benchmarks. This includes tracking error rates and consistency in grading outcomes.
-
-Ensure that any candidate data involved in the validation process is handled in compliance with data protection regulations (e.g., GDPR). Implement necessary safeguards to protect sensitive information.
+### Approach
+- Establish clear criteria for the expert reviews, ensuring that all grading is conducted consistently and according to standardized metrics. This reduces the risk of subjective bias during evaluations.
+- Implement a robust random sampling methodology to select the submissions for manual review. This ensures that the sample is representative and minimizes the potential for bias in the selection process.
+- Create a system for integrating insights gained from expert reviews back into the AI model to facilitate continuous improvement. This feedback loop will enhance grading accuracy over time.
+- Regularly monitor the performance of the grading system to ensure it meets defined accuracy and reliability benchmarks. This includes tracking error rates and consistency in grading outcomes.
+- Ensure that any candidate data involved in the validation process is handled in compliance with data protection regulations (e.g., GDPR). Implement necessary safeguards to protect sensitive information.
  
-## Eval Metrics
-
-Measure the accuracy of AI-generated grades against those provided by expert reviewers. This can be quantified using metrics such as the percentage agreement between the AI's grade and the expert's grade.
-
-Conduct an analysis of the discrepancies identified during the expert review process. Track the types of errors and the frequency of significant differences to identify areas for improvement in the AI model.
-
-Collect qualitative and quantitative feedback from expert reviewers regarding the grading process. Evaluate their assessments of the AI-generated feedback and identify potential biases or areas of concern.
-
-As the volume of submissions increases, evaluate how well the validation process scales. Monitor whether the approach remains feasible and efficient under increased demand.
-
-Explore statistical analyses of grading trends over time to benchmark the AI grading system against historical performance data. This can help identify shifts in grading consistency and accuracy.
+### Eval Metrics
+- Measure the accuracy of AI-generated grades against those provided by expert reviewers. This can be quantified using metrics such as the percentage agreement between the AI's grade and the expert's grade.
+- Conduct an analysis of the discrepancies identified during the expert review process. Track the types of errors and the frequency of significant differences to identify areas for improvement in the AI model.
+- Collect qualitative and quantitative feedback from expert reviewers regarding the grading process. Evaluate their assessments of the AI-generated feedback and identify potential biases or areas of concern.
+- As the volume of submissions increases, evaluate how well the validation process scales. Monitor whether the approach remains feasible and efficient under increased demand.
+- Explore statistical analyses of grading trends over time to benchmark the AI grading system against historical performance data. This can help identify shifts in grading consistency and accuracy.
 
 ### Alternatives Considered
 
