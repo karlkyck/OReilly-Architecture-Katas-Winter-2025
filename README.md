@@ -108,6 +108,7 @@ Inc. is known for.
     - [ADR-11 Data Provisioning for Analytics and AI Model Development](/ADRs/ADR-11-Data-Provisioning-for-Analytics-and-AI-Model-Development.md)
     - [ADR-12: Hosting strategy](/ADRs/ADR-12-Hosting-strategy.md)
     - [ADR-13: Grader Output Validation](/ADRs/ADR-13-Grader-Output-Validation.md)
+    - [ADR-17: Validating AI Generated Answers Against Historical Data](/ADRs/ADR-17-Validating-AI-Generated-Answers-Against-Historical-Data.md)
 
 ## Product Implementation Decisions
 
