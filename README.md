@@ -287,6 +287,7 @@ Research was undertaken to understand what mature AI capabilites, architecture p
 
 - [Prompt engineering and RAG retrieval simulation](./Research/prompt-research.md)
 - [Experimental application demonstrating RAG vector database loading, retrieval, LLM context loading, and prompting](./Research/rag-pattern-experimental-app.md)
+- [LLM cost analysis for various LLM models and scenarios](./Research/llm-cost-calculations.md)
 
 ## Appendix:
 
