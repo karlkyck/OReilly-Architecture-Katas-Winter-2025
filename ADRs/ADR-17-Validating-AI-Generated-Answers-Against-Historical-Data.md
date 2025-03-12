@@ -19,18 +19,15 @@ assessments and maintain high certification standards.
 
 ### Alternatives Considered
 
-- **Option 1:** Manual Review by Human Experts: While effective, this approach is labor-intensive and may not scale with 
-- increased certification requests.
+- **Option 1:** Manual Review by Human Experts: While effective, this approach is labor-intensive and may not scale with increased certification requests.
 
-- **Option 2:** Implementing Additional AI Training: While improving AI training could enhance accuracy, it would require 
-- significant resources and time without providing immediate validation.
+- **Option 2:** Implementing Additional AI Training: While improving AI training could enhance accuracy, it would require significant resources and time without providing immediate validation.
 
-- **Option 3:** Peer Review by Other AI Models: Using different AI models for peer review offers a unique angle but may 
-- complicate the system and still require human oversight.
+- **Option 3:** Peer Review by Other AI Models: Using different AI models for peer review offers a unique angle but may complicate the system and still require human oversight.
 
 ### References
-Documentation on historical data and previous grading standards.
-ADR-06: Architectural Submission Grader, which outlines the initial grading strategy.
+- Documentation on historical data and previous grading standards.
+- [ADR-06: Architectural Submission Grader](./ADR-06-Architectural-Submission-Grader.md), which outlines the initial grading strategy.
 
 ### Date
 03/06/2025
