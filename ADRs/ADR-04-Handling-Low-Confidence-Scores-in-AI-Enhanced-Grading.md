@@ -48,6 +48,8 @@ percentage of submissions fall below the confidence threshold, allowing for prom
 Clearly communicate the role of AI in the grading process to candidates, including the potential for human review. Provide
 detailed feedback when manual reviews occur, ensuring candidates understand the rationale behind their scores.
 
+![Architectural diagram](./images/ADR-04.png)
+
 ### Alternatives Considered
 - **Option 1:** Complete Automation of Grading:
 Initially, we considered fully automating the grading process without human intervention. However, this posed significant
