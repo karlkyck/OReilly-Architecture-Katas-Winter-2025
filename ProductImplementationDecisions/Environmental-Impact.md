@@ -25,4 +25,4 @@ Review and enable migration to more effecient models as they become available.
 - [**Green AI**: Striving for Efficient Machine Learning ](https://medium.com/towards-data-science/towards-green-ai-how-to-make-deep-learning-models-more-efficient-in-production-3b1e7430a14)]
 
 ### Date
-- **Decision Date**: 2025-02-18
+2025-02-18

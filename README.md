@@ -81,34 +81,33 @@ The following ADRs provide the detail around these decisions and the safeguards 
 - **Automate Grading and Review Processes**: Explore ways in which Generative AI can automate the grading and review of 
 software architecture submissions, reducing the burden on expert architects and accelerating response times for
 certification.
-   - [ADR-01: Aptitude Test Grader](/ADRs/ADR-01-Aptitude-Test-Grader.md)
-   - [ADR 02: Handling Low Confidence Scores in AI-Enhanced Grading](/ADRs/ADR-02-Handling-Low-Confidence-Scores-in-AI-Enhanced-Grading.md)
-   - [ADR-03: Structured Formatting of Exam Inputs](/ADRs/ADR-03-Structured-Formatting-of-Exam-Inputs.md)
-   - [ADR-04: Architectural Submission Grader](/ADRs/ADR-04-Architectural-Submission-Grader.md)
-   - [ADR-14: Processing strategy for exam grading](/ADRs/ADR-14-Processing-strategy-for-exam-grading.md)
+   - [ADR-03: Aptitude Test Grader](/ADRs/ADR-03-Aptitude-Test-Grader.md)
+   - [ADR 04: Handling Low Confidence Scores in AI-Enhanced Grading](/ADRs/ADR-04-Handling-Low-Confidence-Scores-in-AI-Enhanced-Grading.md)
+   - [ADR-05: Structured Formatting of Exam Inputs](/ADRs/ADR-05-Structured-Formatting-of-Exam-Inputs.md)
+   - [ADR-06: Architectural Submission Grader](/ADRs/ADR-06-Architectural-Submission-Grader.md)
+   - [ADR-16: Processing strategy for exam grading](/ADRs/ADR-16-Processing-strategy-for-exam-grading.md)
 
 - **Identify AI Opportunities**: Assess the current SoftArchCert system to identify specific areas where Generative AI 
 can be applied to improve efficiency, scalability, and accuracy in handling certification requests.
-   - [ADR-05: Using AI to generate Architecture questions for the exam](/ADRs/ADR-05-Using-AI-to-generate-Architecture-questions-for-the-exam.md)
+   - [ADR-07: Using AI to generate Architecture questions for the exam](/ADRs/ADR-07-Using-AI-to-generate-Architecture-questions-for-the-exam.md)
 
 - **Redesign System Architecture**: Develop a comprehensive plan for redesigning the SoftArchCert system architecture to
 incorporate AI capabilities, ensuring the architecture can support the anticipated growth in certification volume.
-   - [ADR-06: Data Pipeline ETL](/ADRs/ADR-06-Data-Pipeline-ETL.md)
-   - [ADR-07: Approach for RAG implementation](/ADRs/ADR-07-Approach-for-RAG-implementation.md)
+   - [ADR-08: Data Pipeline ETL](/ADRs/ADR-08-Data-Pipeline-ETL.md)
+   - [ADR-09: Approach for RAG implementation](/ADRs/ADR-09-Approach-for-RAG-implementation.md)
 
 - **Enhance User Experience**: Identify improvements in user experience for both applicants and certifiers through the 
 integration of AI, ensuring that the certification process remains intuitive and efficient.
-    - [ADR-08: AI agent to monitor candidates for cheating](/ADRs/ADR-08-AI-Agent-to-monitor-candidates-for-cheating.md)
-    - [ADR-09: Feedback from AI generated grading](/ADRs/ADR-09-Feedback-from-AI-generated-grading.md)
-    - [ADR 10: Utilizing LLM Caching in the System](/ADRs/ADR-10-Utilizing-LLM-Caching-in-the-System.md)
+    - [ADR-10: AI agent to monitor candidates for cheating](/ADRs/ADR-10-AI-Agent-to-monitor-candidates-for-cheating.md)
+    - [ADR-11: Feedback from AI generated grading](/ADRs/ADR-11-Feedback-from-AI-generated-grading.md)
+    - [ADR 12: Utilizing LLM Caching in the System](/ADRs/ADR-12-Utilizing-LLM-Caching-in-the-System.md)
 
 - **Ensure Compliance and Quality**: Establish mechanisms to maintain the integrity and quality of certification 
 standards, ensuring that the integration of AI does not compromise the rigorous evaluation process that Certifiable, 
 Inc. is known for.
-    - [ADR-11 Data Provisioning for Analytics and AI Model Development](/ADRs/ADR-11-Data-Provisioning-for-Analytics-and-AI-Model-Development.md)
-    - [ADR-12: Hosting strategy](/ADRs/ADR-12-Hosting-strategy.md)
-    - [ADR-13: Grader Output Validation](/ADRs/ADR-13-Grader-Output-Validation.md)
-    - [ADR-17: Validating AI Generated Answers Against Historical Data](/ADRs/ADR-17-Validating-AI-Generated-Answers-Against-Historical-Data.md)
+    - [ADR-13 Data Provisioning for Analytics and AI Model Development](/ADRs/ADR-13-Data-Provisioning-for-Analytics-and-AI-Model-Development.md)
+    - [ADR-14: Hosting strategy](/ADRs/ADR-14-Hosting-strategy.md)
+    - [ADR-15: Grader Output Validation](/ADRs/ADR-15-Grader-Output-Validation.md)
 
 ## Product Implementation Decisions
 
@@ -236,13 +235,14 @@ We chose the following as our top 3 architectural characteristics:
 
 ## Architecture Style
 
-According to the TOP 2 driving characteristics:
+According to the TOP 2 driving characteristics and TOP 2 implicit characteristics:
 
-- cost
-- scalability
-- testability (accuracy)
+- maintainability (accuracy)
+- testability
+- cost (feasability)*
+- simplicity (feasability)*
 
-a service-based architecture was selected to leverage the optimal balance between cost, feasibility, scalability, and testability (essential to accuracy).
+a service-based architecture was selected to leverage the optimal balance between feasibility testability, (cost), maintainability, scalability, and testability (essential to accuracy).
 
 ![Architecture Style](/architecture-style.png)
 
@@ -266,7 +266,7 @@ Container diagrams for new architectural components
 ## Known Limitations
 
 The current architecture has the following limitations:
-  - In the future we could implement an AI agent that utilizes machine learning algorithms to monitor candidates during assessments, analyse behavioral patterns, and identify anomalies that may indicate cheating but we decided against this for MVP as outlined in [ADR-08 AI Agent to monitor candidates for cheating](/ADRs/ADR-08-AI-Agent-to-monitor-candidates-for-cheating.md)
+  - In the future we could implement an AI agent that utilizes machine learning algorithms to monitor candidates during assessments, analyse behavioral patterns, and identify anomalies that may indicate cheating but we decided against this for MVP as outlined in [ADR-10 AI Agent to monitor candidates for cheating](/ADRs/ADR-10-AI-Agent-to-monitor-candidates-for-cheating.md)
 
 ## Usage of GenAI
 

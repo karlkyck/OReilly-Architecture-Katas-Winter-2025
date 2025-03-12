@@ -111,4 +111,4 @@ SLA Impact:
 - **Monitoring Market Trends**: Continuously analyzing certification demand to adjust hiring strategies accordingly.
 
 ### Date
-- **Decision Date**: 2025-02-18
+2025-02-18

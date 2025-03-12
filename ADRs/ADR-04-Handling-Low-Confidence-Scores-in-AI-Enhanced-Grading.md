@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 02: Handling Low Confidence Scores in AI-Enhanced Grading using Guardrails
+## ADR 04: Handling Low Confidence Scores in AI-Enhanced Grading using Guardrails
  
 ### Status
 - ACCEPTED

@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 03: Structured Formatting of Exam Inputs
+## ADR 05: Structured Formatting of Exam Inputs
 
 ### Status
 - <span style="color:green">ACCEPTED</span>

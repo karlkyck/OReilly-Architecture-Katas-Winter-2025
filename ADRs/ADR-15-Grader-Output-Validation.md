@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR-13: Grader Output Validation
+## ADR-15: Grader Output Validation
 
 ### Status
 - ACCEPTED

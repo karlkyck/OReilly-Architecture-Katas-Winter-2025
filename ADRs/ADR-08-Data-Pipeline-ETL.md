@@ -1,9 +1,9 @@
 # Architecture Decision Record (ADR)
 
-## ADR 06: Data Pipeline ETL 
+## ADR 08: Data Pipeline ETL 
 
 ### Status
-- <span style="color:green">ACCEPTED</span>
+- ACCEPTED
 
 ### Context
 We must determine how to efficiently load data from our operational systems into the data lake house. The lake house will provide access to various data sources, including exam data, candidate information, grading metrics, and feedback. 

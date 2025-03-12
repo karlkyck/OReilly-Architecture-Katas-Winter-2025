@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 04: Architectural Submission Grader
+## ADR 06: Architectural Submission Grader
 
 ### Status
 
@@ -60,8 +60,8 @@ A rule-based system would be used, incorporating predefined criteria and guideli
 - Maintenance: Requires continuous updates to keep rules current with evolving standards and criteria.
 
 ### References
-- [ADR-07: Approach for RAG implementation](./ADR-07-Approach-for-RAG-implementation.md)
-- [ADR-09: Feedback from AI generated grading](./ADR-09-Feedback-from-AI-generated-grading.md)
+- [ADR-09: Approach for RAG implementation](./ADR-09-Approach-for-RAG-implementation.md)
+- [ADR-11: Feedback from AI generated grading](./ADR-11-Feedback-from-AI-generated-grading.md)
 
 ### Date
 [Date of the decision]

@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR-002: Architecture style
+## ADR-02: Architecture style
 
 ### Status:
 
@@ -36,4 +36,4 @@ This compliments the existing architecture as it too follows an event-based arch
 - Testability (independent services with clear interfaces).
 
 ### Weakened characteristics
-- Elasticity (due to shared databases between servuces).
+- Elasticity (due to shared databases between services).
