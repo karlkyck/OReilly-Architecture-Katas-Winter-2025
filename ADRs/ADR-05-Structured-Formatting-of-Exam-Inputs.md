@@ -16,6 +16,8 @@ will also contribute to continuous improvement in both the grading process and c
 After evaluating the options, we recommend using Option 1: PlantUML as a structuring tool for supplementary materials e.g. diagrams. Although AI image processing presents an innovative approach, 
 the potential inaccuracies and resource requirements make it less favorable given our current needs and capabilities.
 
+![Architectural diagram](./images/ADR-05.png)
+
 ### Alternatives Considered
 - **Option 1:** PlantUML    
   **Description**: PlantUML is a text-based tool that allows users to create UML diagrams from a simple and intuitive markup language. 
