@@ -84,7 +84,7 @@ The following ADRs provide the detail around these decisions and the safeguards 
 software architecture submissions, reducing the burden on expert architects and accelerating response times for
 certification.
    - [ADR-03: Aptitude Test Grader](/ADRs/ADR-03-Aptitude-Test-Grader.md)
-   - [ADR 04: Handling Low Confidence Scores in AI-Enhanced Grading](/ADRs/ADR-04-Handling-Low-Confidence-Scores-in-AI-Enhanced-Grading.md)
+   - [ADR-04: Handling Low Confidence Scores in AI-Enhanced Grading](/ADRs/ADR-04-Handling-Low-Confidence-Scores-in-AI-Enhanced-Grading.md)
    - [ADR-05: Structured Formatting of Exam Inputs](/ADRs/ADR-05-Structured-Formatting-of-Exam-Inputs.md)
    - [ADR-06: Architectural Submission Grader](/ADRs/ADR-06-Architectural-Submission-Grader.md)
    - [ADR-16: Processing strategy for exam grading](/ADRs/ADR-16-Processing-strategy-for-exam-grading.md)
