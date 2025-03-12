@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 15: Validating AI Generated Answers Against Historical Data
+## ADR 17: Validating AI Generated Answers Against Historical Data
 
 ### Status
 - Accepted
