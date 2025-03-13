@@ -18,7 +18,7 @@ Depending on the style, additional decisions like databases, communication patte
 
 ### Decision:
 
-According to the requirements and the [Architecture Characteristics](../Architecture%20Characteristics/architecture-characteristics.md) we decided to use the Service Based Architecture to better support testability, maintainability, feasibility (simplicity, and cost effectiveness). 
+According to the requirements and the [Architecture Characteristics](../Architecture%20Characteristics/architecture-characteristics.md) we decided to use the service-based Architecture to better support testability, maintainability, feasibility (simplicity, and cost effectiveness). 
 
 This compliments the existing architecture as it too follows an service-based architecture style. This allows us to integrate our additional components into existing components and databases thereby reducing complexity, and taking advantage of the existing driving architectures of the current system.
 
@@ -26,13 +26,13 @@ This compliments the existing architecture as it too follows an service-based ar
 
 ### Consequences:
 
-- Service-Based Architecture is comparatively cheaper and faster to build and easier to maintain.
+- Service-based architecture style is comparatively cheaper and faster to build and easier to maintain.
 - Additional components can integrate with existing components and databases.
 - The option remains to evolve the architecture through decomposition of existing components based on need derived from observing system behaviour and meeting future needs.
 
 ### Strengthened characteristics:
 - Cost (relatively straight forward to implement).
-- Maintainability (easy to add new services with new functionality).
+- Maintainability (easy to add new services/models with new functionality).
 - Testability (independent services with clear interfaces).
 
 ### Weakened characteristics

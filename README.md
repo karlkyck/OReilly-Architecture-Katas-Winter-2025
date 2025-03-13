@@ -228,26 +228,23 @@ systems. This document summarizes our outcomes and serves as a guide to understa
    - Address potential ethical concerns about AI use in grading, ensuring that the responses generated are appropriate and reliable.
 
 ## Architecture Characteristics
-We chose the following as our top 3 [architectural characteristics](./Architecture%20Characteristics/architecture-characteristics.md):
+We chose the following as our top 2 [architectural characteristics](./Architecture%20Characteristics/architecture-characteristics.md):
 
 ![Architecture Characteristics](/Architecture%20Characteristics/architecture-characteristics.png)
 
 - accuracy
-- reliability
-- scalability
+- testability
 
 ## Architecture Style
 
-According to the TOP 3 driving characteristics and TOP 2 implicit characteristics*:
+According to the TOP 2 driving characteristics and TOP 2 implicit characteristics*:
 
 - cost (feasability)*
 - maintainability*
-- testability (reliability)
+- testability
 - simplicity (feasability)*
-- scalability
-- fault-tolerance (reliability)
 
-a service-based architecture was selected to leverage the optimal balance between the driving architecture characteristics: testability, fault-tolerance, scalability; and implicit architectural characteristics: feasibility (cost/time) and maintainability.
+A service-based architecture was selected to leverage the optimal balance between the driving architecture characteristics: accuracy, testability; and implicit architectural characteristics: feasibility (cost/time) and maintainability.
 
 ![Architecture Style](./ADRs/images/ADR-02-architecture-style.png)
 
