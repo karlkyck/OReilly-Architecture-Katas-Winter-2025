@@ -124,6 +124,8 @@ Inc. is known for.
 - **Improve operational effeciency and profitability**: Scaling in a manner that allows us to remain profitable, efficient and able to meet our SLAs
     - [Operational Effeciency and Profitability](/ProductImplementationDecisions/Operational-Analysis.md)
 
+    ![Financial Comparison](/ProductImplementationDecisions/financial-comparison.png)
+
 ## Best Practices
 
 We will adhere to best practices in AI Architecture Design ensuring we include Guardrails and Evals where appropriate:
