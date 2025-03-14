@@ -111,6 +111,7 @@ Inc. is known for.
     - [ADR-14: Hosting strategy](/ADRs/ADR-14-Hosting-strategy.md)
     - [ADR-15: Grader Output Validation](/ADRs/ADR-15-Grader-Output-Validation.md)
     - [ADR-17: Validating AI Generated Answers Against Historical Data](/ADRs/ADR-17-Validating-AI-Generated-Answers-Against-Historical-Data.md)
+    - [ADR-18: Guardrails for Content Appropriateness and Data Security](/ADRs/ADR-18-Guardrails-for-Content-Appropriateness-and-Data-Security.md)
 
 ## Product Implementation Decisions
 
