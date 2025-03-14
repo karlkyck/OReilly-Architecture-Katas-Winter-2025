@@ -57,9 +57,9 @@ Uses a set of predefined rules and keyword lists to filter out inappropriate con
 - Simplicity: Easier to implement with clear rules and definitions.
 - Low Cost: Lower initial cost than AI-based solutions.
 
-### Date
-03/06/2025
-
 *Cons*:
 - Inflexibility: Hard-coded rules may not adapt well to new or nuanced content issues.
 - Limited Coverage: May not effectively identify all types of inappropriate content or information leaks.
+
+### Date
+03/06/2025
