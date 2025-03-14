@@ -8,14 +8,9 @@ Starting from the business requirements the following important characteristics 
 
 | **Term**             | **Definition**                                                                                                                                                                                                                                                                                                                             |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **accuracy**         | Accuracy and precision is used to characterize and measure results of an AI process that results in the transformation of data, information, knowledge, or wisdom to a higher-valued form                                                                                                                                                  |
-| **availability**     | The amount of uptime of a system; usually measured in 9's (e.g., 99.9%)                                                                                                                                                                                                                                                                    |
 | **testability**      | The ease of and completeness of testing                                                                                                                                                                                                                                                                                                    |
 | **data integrity**   | The data across the system is correct and there is no data loss in the system                                                                                                                                                                                                                                                              |
-| **data consistency** | The data across the system is in sync and consistent across databases and tables                                                                                                                                                                                                                                                           |
 | **fault tolerance**  | When fatal errors occur, other parts of the system continue to function                                                                                                                                                                                                                                                                    |
-| **cost**             | Taking into account cost implications early and continuously throughout the design, implementation, and ongoing maintainance of the system from a total cost of ownership (TCO) perspective including development, operational, maintenance & support, training, infrastructure, compliance & regulatory, time-to-market, and risks costs. |
-| **scalability**      | A function of system capacity and growth over time; as the number of users or requests increase in the system, responsiveness, performance, and error rates remain constant                                                                                                                                                                |
 | **auditability**     | Tracking, logging, and providing evidence of operations, decisions, and changes to data over time. This ensures that the system's activities can be reviewed and verified for accuracy, compliance, and security.                                                                                                                          |
 | **sustainability**   | ability to maintain long-term operation, adaptability, and efficiency while minimizing negative impacts on the environment, resources, and social aspects                                                                                                                                                                                  |
 | **feasibility**      | Taking into account timeframes, budgets, and developer skills when making architectural choices; tight timeframes and budgets make this a driving architectural characteristic                                                                                                                                                             |
@@ -27,27 +22,15 @@ Starting from the business requirements the following important characteristics 
 
 Key characteristics prioritized:
 
-- **Accuracy**: Accuracy of the certification process is vital for the success of the company, and critical to ensure candidates do not suffer job loss or career damage due to inaccuracy.
+Accuracy of the certification process is vital for the success of the company, and critical to ensure candidates do not suffer job loss or career damage due to inaccuracy.
+
 - **Testability**: Robust regression tests are needed for non-deterministic AI systems to ensure quality and accuracy.
-- **Scalability**: Technically there is no challenge in the system meeting current SLAs even with the projected load through expansion, however scalability is a key factor in reducing SLAs in order to maintain a competitive advantage in the marketplace even with expansion, and to add additional certification paths beyond what is offered today.
-- **Reliability**: The system enables an architecture certification process that careers and employment status depends on - having a reliable system that is available, resilient even during partial failures, maintains data integrity and consistency across multiple disparate databases, and functions correctly is very important:
-  - **Availability**: To ensure grades are available for employers to validate certification, that candidates are able to take exams, and that architecture experts are able to manually grade submissions through random sampling or through the appeals process.
-  - **Testability**: Robust regression tests are needed for non-deterministic AI systems to ensure quality and accuracy.
-  - **Data Integrity**: Data generated by AI systems if not stored correctly with without data loss would be detrimental to the certification process.
-  - **Data Consistency**: Data generated by AI systems if not in sync and consistent across databases and tables would be detrimental to the certification process.
-  - **Fault Tolerance**: Ensures product stability and partial functional availability in the system in the event of component failure e.g., failure of test 1 functionality does not effect test 2 functionality.
-- **Auditability**: AI systems processes and results can be reviewed and verified for accuracy, compliance, and security.
+- **Data Integrity**: Data generated by AI systems if not correct and without data loss would be detrimental to the certification process and credibility of the company.
+- **Fault Tolerance**: Product stability and partial functional availability in the system in the event of partial failure strengthens the company's credibility as a certification process that can be relied upon.
+- **Auditability**: AI systems processes and results can be reviewed and verified for accuracy, compliance, and security. It is critical to the reputation of the company to be able to stand over automatic grading results, and reassure candidates with appropriate human-in-the-loop interventions.
 - **Sustainability**: Workloads, especially AI workloads, use the least amount of energy, cooling, embodied carbon, and carbon emissions possible while serving customer needs.
-- **Feasibility**: Cost-effective decisions minimize variance in basic functionality costs, offsetting the uncertainty of AI integration and maintenance, and improving time-to-market to take advantage of opportunities to expand abroad. Continued cost analysis allows us to balancing cost, accuracy, and reducing SLAs over time to maintain market dominance.
-- **Maintainability**: Allows us to respond quickly to changes required due to reduction of accuracy in grading, taking advantage of new, more powerful and cost effective models, and new technologies that improve the cost/accurancy/SLA balance.
-- **Security**: Essential, as candidate details are stored in the system, along with the entire history of candidate answers to questions, and the examination questions both current and past.
-- **Observability**: It is crucial to provide the right level of system observability so errors can be detected early, root cause established and dealt with quickly, and decisions to deploy a temporary increase in manual grading made when needed to keep the grading backlog at manageable levels.
 
-Reduced priorities:
-
-- **Integrity**: This is covered by accuracy, reliability, and auditability,
-
-## Selecting the Top 2 Driving Architecture Characteristics
+## Selecting the Top 3 Driving Architecture Characteristics
 
 During the requirements gathering process and the [EventStorming](../Event%20Storming/event-storming.md) session, we identified four main challenges:
 
@@ -56,18 +39,33 @@ During the requirements gathering process and the [EventStorming](../Event%20Sto
 - We need to be able to satisfactorily explain the process of how the automatic graders determined their score and provided feedback for the purposes of optimisation, and potential external litigation.
 - To keep SoftArchCert's continuing competitive advantage we need to ensure the solution can continuously evolve to meet tighter SLAs and customer demands whilst maintaining accuracy and reliability.
 
-These challenges led us to conclude that _Accuracy_ and _Testability_ are the top two driving factors for this project.
+We started out focusing on Cost and Scalability, which led us to do analysis of LLM costing models and grading SLAs. We learnt that the cost of the solution would be nowhere near as expensive as the cost of the expert architects, and scaling is less of a concern when you have long SLAs and not huge volumes of processing.
+
+That led us to focus on the critical concerns of the business namely:
+
+> **Critical Information**
+> * As a recognized leader in certification, accuracy of tests, case studies, and grading is job and. Inaccurate grading can result in a candidate not getting or maintaining a job and can impact a candidate's career.
+> * Inaccurate or misleading certification exams and case studies can undermine the credibility of the company’s current standing in the marketplace, so accuracy of the certification process is vital for the success of the company.
+
+These challenges led us to conclude that _Testability_, _Data Integrity_, and _Fault Tolerance_ as the top three driving factors for this solution:
 
 ![Architecture Characteristics](./architecture-characteristics.png)
 
-### Accuracy
+### Testability
 
 - Inaccurate grading can result in a candidate not getting or maintaining a job and can impact a candidate's career.
 - Inaccurate or misleading certification exams and case studies can undermine the credibility of the company’s current standing in the marketplace, so accuracy of the certification process is vital for the success of the company.
 - Robust regression tests are needed for non-deterministic AI systems to ensure quality due to model degradation, model changes, and changes in source material loaded into the vector database to facilitate the RAG pattern.
 - Continuous calibration of the results from AI processes against a small sample of equivalent manual processing ensures accuracy remains high.
 
-### Testability
+### Data Integrity
+
+- As a recognized leader in certification, accuracy of tests, case studies, and grading inaccurate grading can result in a candidate not getting or maintaining a job and can impact a candidate's career,
+- Tests must provide a sufficient level of coverage and completeness to maintain the high levels of accuracy needed to maintain credibility in the marketplace.
+- Robust regression tests are needed for non-deterministic AI systems to ensure quality and accuracy.
+- Regression testing is very important where the changes to the source material against which exam submissions are graded, or examination question sets, or the underlying LLM models could effect the quality and accuracy of the certification process.
+
+### Fault Tolerance
 
 - As a recognized leader in certification, accuracy of tests, case studies, and grading inaccurate grading can result in a candidate not getting or maintaining a job and can impact a candidate's career,
 - Tests must provide a sufficient level of coverage and completeness to maintain the high levels of accuracy needed to maintain credibility in the marketplace.

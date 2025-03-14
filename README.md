@@ -229,23 +229,23 @@ systems. This document summarizes our outcomes and serves as a guide to understa
    - Address potential ethical concerns about AI use in grading, ensuring that the responses generated are appropriate and reliable.
 
 ## Architecture Characteristics
-We chose the following as our top 2 [architectural characteristics](./Architecture%20Characteristics/architecture-characteristics.md):
+We chose the following as our top 3 [architectural characteristics](./Architecture%20Characteristics/architecture-characteristics.md):
+
+- testability
+- data integrity
+- fault tolerance
 
 ![Architecture Characteristics](/Architecture%20Characteristics/architecture-characteristics.png)
 
-- accuracy
-- testability
-
 ## Architecture Style
 
-According to the TOP 2 driving characteristics and TOP 2 implicit characteristics*:
+According to the TOP 3 [driving characteristics](./Architecture%20Characteristics/architecture-characteristics.md):
 
-- cost (feasability)*
-- maintainability*
 - testability
-- simplicity (feasability)*
+- data integrity
+- fault tolerance
 
-A service-based architecture was selected to leverage the optimal balance between the driving architecture characteristics: accuracy, testability; and implicit architectural characteristics: feasibility (cost/time) and maintainability.
+A service-based architecture was selected to leverage the optimal balance between the driving architecture characteristics: testability, data integrity, and fault tolerance. Although the microservices style was also indicated based on the key driving architectural characteristics the implicit architectural characteristics: feasibility (cost/time), simplicity (indicated by feasibilty), and maintainability, along with the majority of the existing architecture following a service-based architecture style steered us towards a service-based architecture:
 
 ![Architecture Style](./ADRs/images/ADR-02-architecture-style.png)
 

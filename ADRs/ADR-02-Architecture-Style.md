@@ -18,7 +18,15 @@ Depending on the style, additional decisions like databases, communication patte
 
 ### Decision:
 
-According to the requirements and the [Architecture Characteristics](../Architecture%20Characteristics/architecture-characteristics.md) we decided to use the service-based Architecture to better support testability, maintainability, feasibility (simplicity, and cost effectiveness). 
+We started out focusing on Cost and Scalability, which led us to do analysis of LLM costing models and grading SLAs. We learnt that the cost of the solution would be nowhere near as expensive as the cost of the expert architects, and scaling is less of a concern when you have long SLAs and not huge volumes of processing.
+
+That led us to focus on the critical concerns of the business namely:
+
+> **Critical Information**
+> * As a recognized leader in certification, accuracy of tests, case studies, and grading is job and. Inaccurate grading can result in a candidate not getting or maintaining a job and can impact a candidate's career.
+> * Inaccurate or misleading certification exams and case studies can undermine the credibility of the company’s current standing in the marketplace, so accuracy of the certification process is vital for the success of the company.
+
+According to the requirements and the [Architecture Characteristics](../Architecture%20Characteristics/architecture-characteristics.md) we decided to use the service-based Architecture to better support testability, data integrity, and fault tolerance.
 
 This compliments the existing architecture as it too follows an service-based architecture style. This allows us to integrate our additional components into existing components and databases thereby reducing complexity, and taking advantage of the existing driving architectures of the current system.
 
@@ -34,6 +42,7 @@ This compliments the existing architecture as it too follows an service-based ar
 - Cost (relatively straight forward to implement).
 - Maintainability (easy to add new services/models with new functionality).
 - Testability (independent services with clear interfaces).
+- Fault tolerance (independent services can remain functional during partial failure)
 
 ### Weakened characteristics
 - Elasticity (due to shared databases between services).
