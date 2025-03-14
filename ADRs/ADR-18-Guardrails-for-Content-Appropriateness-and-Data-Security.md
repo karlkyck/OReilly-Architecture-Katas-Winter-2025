@@ -26,7 +26,7 @@ This approach involves embedding AI-based guardrails within the system that use 
 
 *Pros*:
 - Content Filtering: Effectively screens for inappropriate language or content in both inputs and outputs.
-- Data Protection: Prevents leakage of sensitive grading criteria and RAG dataset information.
+- Data Protection: Prevents leakage information about the RAG dataset used for grading.
 - Adaptability: AI-based solutions can learn and adapt to new types of inappropriate content or information threats.
 
 *Cons*:
