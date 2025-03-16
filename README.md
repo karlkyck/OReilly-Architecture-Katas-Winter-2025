@@ -13,6 +13,7 @@ Our approach to the O'Reilly Winter Architectural Kata 2025
   - [Functional Requirements](#functional-requirements)
   - [Non-Functional Requirements](#non-functional-requirements)
 - [Architecture Characteristics](#architecture-characteristics)
+- [Fitness Functions](#fitness-functions)
 - [Architecture Style](#architecture-style)
 - [Architecture](#architecture)
   - [System Context Diagram (C1)](#system-context-diagram-c1)
