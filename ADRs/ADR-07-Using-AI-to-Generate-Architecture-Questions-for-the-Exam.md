@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 07: Using AI to generate Architecture questions for the exam
+## ADR 07: Using AI to Generate Architecture Questions for the Exam
 
 ### Status
 - ACCEPTED
