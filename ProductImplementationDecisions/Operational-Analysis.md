@@ -19,13 +19,14 @@ Certifiable, Inc. is preparing for significant scaling, with the potential to gr
 ### SLA Improvement
 Enhancing operational efficiency presents an opportunity to reduce lead times for assessments and feedback, thereby increasing candidate satisfaction and improving competitive positioning.
 
-
 ### AI Financial Options
 
 See the /Research/llm-cost-calculations.xlsx for costing with different models. This is based on using the Claude 3.5 Sonnet model and where we Human random sample 10% of all tests. Over time as we scale and our confidence in the AI increases we can reduce this verfication %.
 Cost and accurate of model will also continue to improve and we will evaluate frequently. 
 
-
 ## SLA Impact:
 Overtime as the AI model becomes accurate and the need for human verification reduces we could reduce the SLA for candidates to a shorter timeframe than today.
 This will also help employers awaiting certification and improve our overall experience and keep us as the industry leader.
+
+### Date
+02/18/2025
