@@ -1,4 +1,6 @@
-# ADR 01: Using Architecture Decisions Records (ADRs) and following template
+# Architecture Decision Record (ADR)
+
+## ADR-01: Using Architecture Decisions Records (ADRs) and following template
 
 ## Status
 - ACCEPTED
