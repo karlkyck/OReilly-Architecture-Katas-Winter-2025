@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 10: AI Agent to monitor candidates for cheating
+## ADR 10: AI Agent to Monitor Candidates for Cheating
 
 ### Status
 - REJECTED
@@ -23,7 +23,7 @@ While implementing this could be very valuable, we are not recommending it for M
 The system will ensure a seamless user experience for applicants while providing certifiers with valuable insights and alerts. As this is not recommended for the MVP, it is a future feature that will add value and help build the reputation of the company as we grow.
 
 ### Alternatives Considered
-- **Option 1:** Real-Time AI Monitoring  
+**Option 1:** Real-Time AI Monitoring  
 
 **Description**: Implement an AI system that analyses candidates' video feeds and interactions during assessments to detect 
 suspicious behavior or anomalies in real time. This option would involve collecting video and interaction data and using
@@ -42,9 +42,8 @@ Requires significant processing power and resources.
 Time-consuming to gather and label a dataset to train the AI model.
 Potential concerns regarding privacy and data security.
 Candidates may feel anxious or scrutinized during assessments.
-  
 
-- **Option 2:** Post-Assessment Analysis  
+**Option 2:** Post-Assessment Analysis  
 
 **Description:** Use AI to analyze data from completed assessments, reviewing patterns and inconsistencies in results after
 the fact. This option would involve collecting data from completed assessments, including:
@@ -68,7 +67,7 @@ the fact. This option would involve collecting data from completed assessments, 
   Limited ability to intervene in real time.
   
 
-- **Option 3:** Manual Approach  
+**Option 3:** Manual Approach  
 
 **Description:**  
 Use human experts to monitor candidates in real-time during assessments, ensuring compliance with 
