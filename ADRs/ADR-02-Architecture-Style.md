@@ -46,3 +46,6 @@ This compliments the existing architecture as it too follows an service-based ar
 
 ### Weakened characteristics
 - Elasticity (due to shared databases between services).
+
+- ### Date
+02/13/2025
