@@ -66,4 +66,4 @@ A rule-based system would be used, incorporating predefined criteria and guideli
 - [ADR-11: Feedback from AI generated grading](./ADR-11-Feedback-from-AI-generated-grading.md)
 
 ### Date
-[Date of the decision]
+02/13/2025
