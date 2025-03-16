@@ -27,4 +27,4 @@ Limited Logging and Monitoring: A decision was made against having a minimalisti
 - CCPA Overview: California Consumer Privacy Act (CCPA)
 
 ### Date
-2025-2-18
+02/18/2025
