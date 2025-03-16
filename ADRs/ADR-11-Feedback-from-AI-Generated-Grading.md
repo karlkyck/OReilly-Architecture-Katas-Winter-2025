@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR-11: Feedback from AI generated grading
+## ADR-11: Feedback from AI Generated Grading
 
 ### Status
 - ACCEPTED
@@ -51,4 +51,4 @@ Feedback can be generated following the completion of grading, allowing for a mu
 - [ADR-06: Architectural Submission Grader](./ADR-06-Architectural-Submission-Grader.md)
 
 ### Date
-[Date of the decision]
+02/12/2025
