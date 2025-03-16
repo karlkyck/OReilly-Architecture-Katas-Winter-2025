@@ -239,6 +239,11 @@ We chose the following as our top 3 [architectural characteristics](./Architectu
 
 ![Architecture Characteristics](/Architecture%20Characteristics/architecture-characteristics.png)
 
+## Fitness Functions
+Architecture Fitness Functions provide an objective measurement of architectural characteristics.
+
+We have designed two [fitness functions](./Fitness%20Functions/) which will be used to verify the data integrity of both the Aptitude Test and Architecture Submisission workflows.
+
 ## Architecture Style
 
 According to the TOP 3 [driving characteristics](./Architecture%20Characteristics/architecture-characteristics.md):
