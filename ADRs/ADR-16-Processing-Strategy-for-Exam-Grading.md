@@ -1,6 +1,6 @@
 # Architecture Decision Record (ADR)
 
-## ADR 16: Processing strategy for exam grading
+## ADR 16: Processing Strategy for Exam Grading
 
 ### Status
 
