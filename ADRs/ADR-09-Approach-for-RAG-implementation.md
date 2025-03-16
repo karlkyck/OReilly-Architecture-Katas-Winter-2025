@@ -60,7 +60,6 @@ A hybrid approach utilizing cloud-agnostic tools such as Terraform for infrastru
 - **Resource Intensive**: Requires expertise in multi-cloud or hybrid cloud operations.
 
 ### References
-- 
 
 ### Date
-[Date of the decision]
+02/12/2025
