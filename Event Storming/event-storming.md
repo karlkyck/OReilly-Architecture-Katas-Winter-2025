@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In our recent workshop, we used Event Storming ]to explore and map out various domains within our business processes. 
+In our recent workshop, we used Event Storming to explore and map out various domains within our business processes. 
 The session focused on capturing and documenting the flow of events, actors, and interactions between systems. 
 This document summarizes our outcomes and serves as a guide to understanding our approach.
 
