@@ -39,6 +39,5 @@ While ABAC offers flexibility, the complexity of managing policies based on mult
 - Role-Based Access Control (RBAC) Explained: NIST RBAC
 - Multi-Factor Authentication: Federal Trade Commission - Safeguarding Personal Information
 
-
 ### Date
-2025-2-18
+02/18/2025
