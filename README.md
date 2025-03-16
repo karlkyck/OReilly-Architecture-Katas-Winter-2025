@@ -66,12 +66,12 @@ Certifiable, Inc. is an accredited leader in the software architecture certifica
 
 ----------------
 **AI Enhanced System - TLDR:**
-- AI grading for the Aptitude Test
+- AI Grading for the Aptitude Test
 - AI RAG Ensemble based grading for Architecture Submission
-- AI Architecture Question generation
+- AI Architecture Question Generation
 - AI Generated Feedback
 
-*Rejected*
+*Rejected Functionality*
 - AI Agent to monitor candidate cheating (Rejected)
 - LLM Caching in the system (Rejected)
   
@@ -121,8 +121,8 @@ Inc. is known for.
     - [Environmental Impact](/ProductImplementationDecisions/Environmental-Impact.md)
     - [Authorization and Authentication](/ProductImplementationDecisions/User-Authentication-and-Authorization.md)
 
-- **Improve operational effeciency and profitability**: Scaling in a manner that allows us to remain profitable, efficient and able to meet our SLAs
-    - [Operational Effeciency and Profitability](/ProductImplementationDecisions/Operational-Analysis.md)
+- **Improve Operational Efficiency and Profitability**: Scaling in a manner that allows us to remain profitable, efficient and able to meet our SLAs
+    - [Operational Efficiency and Profitability](/ProductImplementationDecisions/Operational-Analysis.md)
 
     ![Financial Comparison](/ProductImplementationDecisions/financial-comparison.png)
 
