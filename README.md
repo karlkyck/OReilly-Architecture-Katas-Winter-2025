@@ -309,6 +309,7 @@ Research was undertaken to understand what mature AI capabilites, architecture p
   - Provide pertinent implementation details for the AI components.
 - **Presentation Video (for semi-final teams)**
   - A five-minute video describing the team’s approach to integrating AI into the certification process.
+  - Link to [Presentation Video](https://drive.google.com/file/d/1Ba67j4MGPOoyNS5MySvevA1Kc7m6Zo-t/view?usp=drive_link)
 
 ### Judge's Criteria for Evaluation
 
